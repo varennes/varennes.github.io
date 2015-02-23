@@ -15,7 +15,7 @@ P(x|t) = \frac{2}{\sqrt{2\pi\sigma^2}} e^{-x^2/2\sigma^2} \\
 \sigma^2 = 2Dt
 $$
 
-The extra factor of two in $$P(x|t)$$ is because of the reflective boundary at the origin. In an 1D random walk so $$\left<x\right> = 0$$, therefore $$\sigma^2 = \left<x^2\right>$$, and $$\left<x^2\right> = Nb^2$$.
+The extra factor of two in $$P(x\vert t)$$ is because of the reflective boundary at the origin. In an 1D random walk so $$\left<x\right> = 0$$, therefore $$\sigma^2 = \left<x^2\right>$$, and $$\left<x^2\right> = Nb^2$$.
 
 $$
 \Rightarrow 2Dt = Nb^2 \\
@@ -37,11 +37,11 @@ At large times the data starts to diverge from a normal distribution as more and
 <a href="https://www.flickr.com/photos/130911384@N02/16210076679" title="pdf_3000 by Julien Varennes, on Flickr"><img src="https://farm9.staticflickr.com/8629/16210076679_cab3613259_o.png" width="560" height="420" alt="pdf_3000"></a>
 
 
-### $$P(t)$$
+### \$$P(t)$$
 
 #### Prediction
 
-$$P(t)$$ is the probability density of the first passage time. It is expressed as the following:
+\$$P(t)$$ is the probability density of the first passage time. It is expressed as the following:
 
 $$
 P(t) = -D \frac{\partial P(x|t)}{\partial x} |_{x=L}
