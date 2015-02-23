@@ -5,7 +5,7 @@ title: 1D Diffusion Notes
 
 ## 1 Cell Diffusion with No State Switching
 
-### $P(x|t)$
+### \$$P(x|t)$$
 
 #### Prediction
 The probability density for cell location given a time $t$ should look like a normal distribution. As time increases this prediction becomes less accurate since more and more particles get absorbed at the right side boundary.
