@@ -9,16 +9,20 @@ title: 1D Diffusion Notes
 
 #### Prediction
 The probability density for cell location given a time $$t$$ should look like a normal distribution. As time increases this prediction becomes less accurate since more and more particles get absorbed at the right side boundary.
+
 $$
 P(x|t) = \frac{2}{\sqrt{2\pi\sigma^2}} e^{-x^2/2\sigma^2} \\
 \sigma^2 = 2Dt
 $$
-The extra factor of two in $P(x|t)$ is because of the reflective boundary at the origin. In an 1D random walk so $\left<x\right> = 0$, therefore $\sigma^2 = \left<x^2\right>$, and $\left<x^2\right> = Nb^2$.
+
+The extra factor of two in $P(x|t)$ is because of the reflective boundary at the origin. In an 1D random walk so $$\left<x\right> = 0$$, therefore $$\sigma^2 = \left<x^2\right>$$, and $$\left<x^2\right> = Nb^2$$.
+
 $$
 \Rightarrow 2Dt = Nb^2 \\
 t = N \Delta t \\
 \Rightarrow D = \frac{b^2}{2\Delta t}
 $$
+
 
 #### Results
 
