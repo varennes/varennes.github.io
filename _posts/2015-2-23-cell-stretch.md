@@ -1,5 +1,7 @@
-
-# Simulation Notes: Stretchable Cells
+---
+layout: post 
+title : Simulation Notes: Stretchable Cells
+---
 
 ### Simulation Set-up
 
