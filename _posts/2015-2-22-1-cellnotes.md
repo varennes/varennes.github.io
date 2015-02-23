@@ -15,7 +15,7 @@ P(x|t) = \frac{2}{\sqrt{2\pi\sigma^2}} e^{-x^2/2\sigma^2} \\
 \sigma^2 = 2Dt
 $$
 
-The extra factor of two is because of the reflective boundary at the origin. In an 1D random walk so $$\left<x\right> = 0$$, therefore $$\sigma^2 = \left<x^2\right>$$, and $$\left<x^2\right> = Nb^2$$.
+The extra factor of two in $$P(x\vert t)$$ is because of the reflective boundary at the origin. In an 1D random walk so $$\left<x\right> = 0$$, therefore $$\sigma^2 = \left<x^2\right>$$, and $$\left<x^2\right> = Nb^2$$.
 
 $$
 \Rightarrow 2Dt = Nb^2 \\
