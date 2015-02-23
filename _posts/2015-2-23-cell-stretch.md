@@ -23,6 +23,7 @@ title: Stretchable Cells
 ### Results
 
 <a href="https://www.flickr.com/photos/130911384@N02/16406698937" title="wiggle_1 by Julien Varennes, on Flickr"><img src="https://farm9.staticflickr.com/8623/16406698937_9448deeb07_o.png" width="560" height="420" alt="wiggle_1"></a>
+
 The box indicates the value of `cellstretch` for that set of data.
 
  - In the one cell case we recover the same result as the single cell diffusion simulations. The mean passage time is $$10^4$$ time steps.
