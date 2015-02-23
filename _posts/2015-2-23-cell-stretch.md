@@ -1,6 +1,6 @@
 ---
 layout: post 
-title : Simulation Notes: Stretchable Cells
+title: Stretchable Cells
 ---
 
 ### Simulation Set-up
