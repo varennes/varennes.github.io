@@ -33,6 +33,7 @@ The box indicates the value of `cellstretch` for that set of data.
 	 - I am surprised by how the benefit of being able to stretch more quickly decreases.
 
 Below is the relative decrease in mean passage time with respect to the `cellstretch = 2` case.
+
 <a href="https://www.flickr.com/photos/130911384@N02/15996377073" title="wiggle_2 by Julien Varennes, on Flickr"><img src="https://farm9.staticflickr.com/8673/15996377073_89e7bf502d_o.png" width="560" height="420" alt="wiggle_2"></a>
 
 > Written with [StackEdit](https://stackedit.io/).
