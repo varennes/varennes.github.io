@@ -8,7 +8,7 @@ title: 1D Diffusion Notes
 ### \$$P(x|t)$$
 
 #### Prediction
-The probability density for cell location given a time $t$ should look like a normal distribution. As time increases this prediction becomes less accurate since more and more particles get absorbed at the right side boundary.
+The probability density for cell location given a time \$$t$$ should look like a normal distribution. As time increases this prediction becomes less accurate since more and more particles get absorbed at the right side boundary.
 $$
 P(x|t) = \frac{2}{\sqrt{2\pi\sigma^2}} e^{-x^2/2\sigma^2} \\
 \sigma^2 = 2Dt
