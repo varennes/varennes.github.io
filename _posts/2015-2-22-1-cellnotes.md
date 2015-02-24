@@ -37,11 +37,11 @@ At large times the data starts to diverge from a normal distribution as more and
 <a href="https://www.flickr.com/photos/130911384@N02/16210076679" title="pdf_3000 by Julien Varennes, on Flickr"><img src="https://farm9.staticflickr.com/8629/16210076679_cab3613259_o.png" width="560" height="420" alt="pdf_3000"></a>
 
 
-### \$$ P(t) $$
+### First Passage Time
 
 #### Prediction
 
-\$$P(t)$$ is the probability density of the first passage time. It is expressed as the following:
+$$P(t)$$ is the probability density of the first passage time. It is expressed as the following:
 
 $$
 P(t) = -D \frac{\partial P(x|t)}{\partial x} |_{x=L}
