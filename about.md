@@ -6,7 +6,7 @@ permalink: /about/
 
 Hello!
 
-I am a physics Phd student at Purdue University. I have been studying and working at Purdue since August 2013. 
+I am a physics Phd student at [Purdue University](http://www.physics.purdue.edu/). I have been studying and working at Purdue since August 2013. 
 
 ### More Information
 
