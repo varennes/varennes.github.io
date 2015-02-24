@@ -1,0 +1,136 @@
+
+# Lecture 11
+
+## Dynamic Instability of the Microtubule
+
+### What is the timescale of fluctuations? ($\tau$)
+A good guess would be that it depends only on the two rates which we are aware of - the attach and detach rates.
+
+$$ \tau \approx \frac{1}{\alpha}+\frac{1}{\mu} \approx \frac{2}{\mu} $$
+
+#### Dynamic Instability in microtubule-like filaments
+
+<img src="http://ccftp.scu.edu.cn:8090/Download/uploadfile/20120812154915734.jpg" width='650' >
+
+ - Microtubules have dynamic instability
+	 - One end of the microtubule is composed of stable (**GTP**) monomers while the rest of the tubule is made up of unstable (**GDP**) monomers.
+		 - The **GTP** end comprises a *cap* of stable monomers.
+	 - Random fluctuations either increase or decrease the size of the cap.
+		 - This results in 2 different dynamic states for the microtubule.
+			 - **Growing**: cap is present
+			 - **Shrinking**: cap is gone
+
+Lets define some parameters to describe how the microtubule switches between these to states and also how it behaves once in a state.
+
+$$
+g \equiv \text{switch from shrinking to growing rate} \\
+s \equiv \text{switch from growing to shrinking rate} \\
+$$
+
+If we are in the growth state then monomers may be added to the filament.
+
+$$ \alpha \equiv \text{attach rate} $$
+
+If we are in the shrinkage state then monomers may be released from the filament.
+
+$$ \mu \equiv \text{detach rate} $$
+
+The microtubule switches between these two states.
+<img src="https://www.scienceopen.com/document_file/b91ee980-a0b7-4990-b2c2-eb34d24754ae/PubMedCentral/image/bies0035-0452-f1" width='500'>
+
+If we were to plot the length of the microtubule as a function of time it would look something like the following:
+<img src="http://www.pha.jhu.edu/~ghzheng/old/webct/note2_1.files/F19-13.jpg" >
+
+Lets now try to write a model that can describe how this occurs.
+
+## Dynamic Model
+
+Lets define $f$ as being the fraction of time spent in the growth state. Hence the fraction of time spent in shrinkage state is then $1-f$.
+
+Similar to what we have done in previous lectures, our dynamic model is expressed as the following:
+
+$$ \bar{n}(t)=\alpha(ft)-\mu[(1-f)t]+n_0 $$
+
+The fractions $f$ and $1-f$ can expressed in terms of the rates we defined above.
+
+$$
+f = \frac{g}{g+s} \\ 1-f=\frac{s}{g+s} \\
+\Rightarrow \bar{n}(t)=\left[\frac{\alpha g}{g+s}-\frac{\mu s}{g+s}\right]t + n_0
+$$
+
+ - Growth is **bounded** if $\alpha g<\mu s$.
+ - Growth is **unbounded** if $\alpha g>\mu s$.
+
+## Stochastic Model
+Now lets think in terms of probabilities. We need to assign probabilities to being in either a growth or shrinkage state with a certain number of links $n$.
+
+$p(n,+)\equiv q_n = \text{probability of being in growth state}$
+$p(n,-)\equiv r_n = \text{probability of being in shrinkage state}$
+
+The probability of being a microtubule with $n$ links is $p_n$.
+If $n=0$, $p_n = q_0$.
+If $n\geq1$, $p_n=q_n+r_n$.
+
+### Growth Rate
+
+$$ \frac{dp(n,+)}{dt}=\frac{dq_n}{dt} $$
+
+##### For $n\geq 1$
+
+$$ 
+\frac{dq_n}{dt} = \alpha \ q_{n-1}-\alpha \ q_n - s \ q_n + g \ r_n \\
+\frac{dr_n}{dt} = \mu \ r_{n+1}-\mu \ r_n+s \ q_n -g \ r_n
+$$
+
+##### For $n=0$
+
+$$
+\frac{dq_0}{dt}=\mu \ r_1-\alpha \ q_0
+$$
+
+In a **bounded** state we can solve for the stationary distribution of $p_n$ by setting the time derivatives equal to zero.
+
+##### For $n=0$
+
+$$ \Rightarrow r_1=\frac{\alpha}{\mu}q_0=\lambda q_0 \\ \lambda \equiv \frac{\alpha}{\mu} $$
+
+##### For $n=1$
+
+$$
+0 = \alpha \ q_0-\alpha \ q_1 - s \ q_1 + g \ r_1 \\
+0 =  \mu \ r_2-\mu \ r_1+s \ q_1 -g \ r_1 \\
+x \equiv \lambda \frac{\mu+g}{\alpha+s} \\
+\Rightarrow q_1=x \ q_0, \ \  r_2 = \lambda \ x \ q_0
+$$
+
+If we repeat this process for $n=2,3,4,...$ we notice a pattern emerge.
+
+$$ q_n = x^nq_0 \\ r_n=x^{n-1} \lambda \ q_0 $$
+
+We can solve for $q_0$ by normalizing the probability distribution.
+
+$$
+1=\sum_{n=0}^\infty p_n = q_0 + \sum_{n=1}^\infty (q_n+r_n) \\
+1=q_0\left[\frac{1-x+x+\lambda}{1-x}\right] \\
+q_0 = \frac{1-x}{1+\lambda}
+$$
+
+$$
+p_n = \begin{cases}
+  q_0, & n = 0 \\
+  q_0 x^n \left(1+\frac{\lambda}{x}\right), & n\geq1
+\end{cases}
+$$
+
+This is not quite a (exponential) [geometric distribution](http://mathworld.wolfram.com/GeometricDistribution.html). A geometric distribution looks like the following:
+
+$$ p_n=(1-\lambda)\lambda^n \\ \frac{p_{n+1}}{p_n}=\lambda$$
+
+Whereas in our case we have the following relationships:
+
+$$ \frac{p_1}{p_0}=x+\lambda, \ \ \ \frac{p_{n+1}}{p_n}=x \ \ \text{for} \ n\geq1 $$
+
+Notice that when we solved for the series we assumed $x<1$ in order for the series to converge, and so this is in fact a bounded state.
+
+
+> Written with [StackEdit](https://stackedit.io/).
