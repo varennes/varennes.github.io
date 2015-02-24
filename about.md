@@ -4,11 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello!
+
+I am a physics Phd student at Purdue University. I have been studying and working at Purdue since August 2013. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+I am interested in biophysics. I am currently working on problems of collective cell sensing and how that pertains to diffusion.
 
 ### Contact me
 
