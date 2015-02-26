@@ -5,4 +5,7 @@ title: Biophysics Lecture Notes
 
 ## Lecture Notes
 
-[12: Molecular Motors](/lecture12/)
+#### [Course Details](http://www.physics.purdue.edu/academic-programs/courses/course_detail.php?SEM=spring2015&c=phys570J) 
+
+11. [Dynamic Instability](/lecture12/)
+12. [Molecular Motors](/lecture12/)
