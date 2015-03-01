@@ -1,36 +1,44 @@
+---
+layout: post
+title: Lecture 12
+---
 
-# Lecture 10
+# Dynamics: Filament Polymerization
 
-## Dynamics: Filament Polymerization
-
-### Polymerization at Both Ends (cont.)
+## Polymerization at Both Ends (cont.)
 
 <img src="https://wikispaces.psu.edu/download/attachments/42339215/cytoskeleton%20tut23rev4.jpg" width='500'>
 
-#### Actin
+### Actin
 
-Unlike microtubules, actin does not have the same *critical concentration* for the "$+$" and "$-$" ends.
+Unlike microtubules, actin does not have the same *critical concentration* for the "$$+$$" and "$$-$$" ends.
+
 $$ c^*_+ \neq c^*_- $$
-Plotting $\frac{dn_\pm}{dt}$ as a function of $c$ will illustrate a different phase space than that of microtubules.
-Assume that $c^*_+ < c^*_-$, this gives us the following relationships between $c$ and $\frac{dn_\pm}{dt}$.
+
+Plotting $$\frac{dn_\pm}{dt}$$ as a function of $$c$$ will illustrate a different phase space than that of microtubules.
+Assume that $$c^*_+ < c^*_-$$, this gives us the following relationships between $$c$$ and $$\frac{dn_\pm}{dt}$$.
+
 $$
  \ \ \ \ \ \ \ \ \ \  c < c^*_+ \ \Rightarrow \ \frac{dn_+}{dt}<0 \text{ and } \frac{dn_-}{dt} < 0  \ \ [1]\\
 c^*_+< c < c^*_- \ \Rightarrow \ \frac{dn_+}{dt}>0 \text{ and } \frac{dn_-}{dt} < 0 \ \ [2]\\
  \ \ \ \ \ \ \ \ \ \  c < c^*_+ \ \Rightarrow \ \frac{dn_+}{dt} > 0 \text{ and } \frac{dn_-}{dt} > 0 \ \ [3]
 $$
+
 The three relationships above yield 3 different phases for actin.
 
-$[1]$: Both ends shrink
-$[2]$: The $+$ end grows, $-$ end shrinks
-$[3]$: Both ends grow
+$$[1]$$: Both ends shrink
+$$[2]$$: The $$+$$ end grows, $$-$$ end shrinks
+$$[3]$$: Both ends grow
 
-For some value of $c$ within the regime of $[2]$ the rate at which the $+$ end grows equals the rate the $-$ end shrinks. This concentration is called the *treadmilling concentration* $c_T$.
+For some value of $c$ within the regime of $$[2]$$ the rate at which the $$+$$ end grows equals the rate the $$-$$ end shrinks. This concentration is called the *treadmilling concentration* $$c_T$$.
+
 $$ c=c_T \Rightarrow  \frac{dn_+}{dt} =  \frac{dn_-}{dt} $$
 
 ![treadmil](http://clasfaculty.ucdenver.edu/bstith/trdmilfil.gif)
 Simple treadmilling animation
 
-For actin, $c_T\approx 0.16\mu M$. Both ends grows and shrink at the same rate resulting in the length of the actin remaining fixed. The system is in a steady state, however it is not in thermodynamic equilibrium because the filaments are constantly shifting. We can derive $c_T$ by noting that the total number of filaments $n$ remains constant.
+For actin, $$c_T\approx 0.16\mu M$$. Both ends grows and shrink at the same rate resulting in the length of the actin remaining fixed. The system is in a steady state, however it is not in thermodynamic equilibrium because the filaments are constantly shifting. We can derive $$c_T$$ by noting that the total number of filaments $$n$$ remains constant.
+
 $$
  \frac{dn}{dt} = 0 \\
   \frac{dn}{dt} =  \frac{d(n_++n_-)}{dt} =  \frac{dn_+}{dt} +  \frac{dn_-}{dt} \\
@@ -44,43 +52,51 @@ $$
 Our model, given by the rate equation has a couple of problems.
 $$ \text{Rate Equation: }  \frac{dn}{dt} = \alpha-\mu $$
 
- - Nothing in this model says that $n$ cannot be negative.
+ - Nothing in this model says that $$n$$ cannot be negative.
 	 - Physically, the number of filaments must be zero or positive.
- - At small values of $n$ a continuous differential equation is no longer realistic. We can no longer approximate changes in $n$ as being continuous.
+ - At small values of $$n$$ a continuous differential equation is no longer realistic. We can no longer approximate changes in $$n$$ as being continuous.
 
-In order to try to solve these problems in our model we take a probabilistic approach. Let's examine what may happen to a filament during small interval of time $\Delta t$ and their respective probabilities.
+In order to try to solve these problems in our model we take a probabilistic approach. Let's examine what may happen to a filament during small interval of time $$\Delta t$$ and their respective probabilities.
 
- 1. Add a filament: $\ \ \ \ \  \ \ \ p(n \rightarrow n+1) = \alpha\Delta t$
- 2. Subtract a filament: $\ p(n \rightarrow n-1) = \mu\Delta t$
- 3. Nothing happens: $\ \ \ \ p(n\rightarrow n) \ \ \ \ \ \ \ = 1 - (\alpha-\mu)\Delta t$
+ 1. Add a filament: $$\ \ \ \ \  \ \ \ p(n \rightarrow n+1) = \alpha\Delta t$$
+ 2. Subtract a filament: $$\ p(n \rightarrow n-1) = \mu\Delta t$$
+ 3. Nothing happens: $$\ \ \ \ p(n\rightarrow n) \ \ \ \ \ \ \ = 1 - (\alpha-\mu)\Delta t$$
 
-Using these relations we can formulate the probability that at some time $t+\Delta t$ the actin has $n$ filaments, $p_n(t+\Delta t)$. There are three different ways to get to a state with $n$ filaments: add 1 filament, subtract 1 filament, and the actin had $n$ filaments and nothing changed. Quantitatively this can be expressed as the following:
+Using these relations we can formulate the probability that at some time $$t+\Delta t$$ the actin has $$n$$ filaments, $$p_n(t+\Delta t)$$. There are three different ways to get to a state with $$n$$ filaments: add 1 filament, subtract 1 filament, and the actin had $$n$$ filaments and nothing changed. Quantitatively this can be expressed as the following:
+
 $$
 p_n(t+\Delta t) = p_{n-1}(t)\alpha\Delta t+ p_{n-1}(t)\mu\Delta t + p_n(t)(1 -\alpha\Delta t-\mu\Delta t)
 $$
-This can apply to all values of $n$ except for edge cases. For example, at $n=0$ the probability of having zero filaments is
+
+This can apply to all values of $$n$$ except for edge cases. For example, at $$n=0$$ the probability of having zero filaments is
+
 $$ p_0(t+\Delta t) = p_1(t)\mu\Delta t + p_0(t)(1-\alpha\Delta t).$$
 
 We can re-write the two equations above to show how the probabilities vary as a function of time.
+
 $$
 \frac{p_n(t+\Delta t) - p_n(t)}{\Delta t} = \dot{p}_n\\
 $$
-$\text{for }\ n>0: \ \ \dot{p}_n=\alpha \ p_{n-1}+ \mu \ p_{n+1} - (\alpha+\mu)p_n $
-$\text{for }\ n=0: \ \ \dot{p}_0=\mu \ p_1-\alpha \ p_0$
 
-The two above equations dictating the behavior of $\dot{p}_n$ are called the (stochastic) *Master Equation*.
+for $$ n>0: \ \ \dot{p}_n=\alpha \ p_{n-1}+ \mu \ p_{n+1} - (\alpha+\mu)p_n $$
+for $$ n=0: \ \ \dot{p}_0=\mu \ p_1-\alpha \ p_0$$
 
-### Expectation Value
+The two above equations dictating the behavior of $$\dot{p}_n$$ are called the (stochastic) *Master Equation*.
 
-We can calculate the expectation value (mean) of $n$ using the following formula:
+## Expectation Value
+
+We can calculate the expectation value (mean) of $$n$$ using the following formula:
+
 $$
 \left<n\right> \equiv \bar{n} = \sum_{n=0}^\infty n \ p_n \\
 \frac{d\bar{n}}{dt}=\frac{d}{dt} \sum_{n=0}^\infty n \ p_n = 0 \cdot\frac{dp_0}{dt}+\sum_{n=1}^\infty n \ \frac{p_n}{dt} \\
 \frac{d\bar{n}}{dt}=\alpha\sum_{n=1}^\infty n\ p_{n-1} + \mu\sum_{n=1}^\infty n\ p_{n+1} -(\alpha+\mu)\sum_{n=1}^\infty n \ p_n
 $$ 
-The expression for $\frac{d\bar{n}}{dt}$ can be simplified by rewriting the different summation terms. By changing the summation index and by noting that for $n=0 \rightarrow n \ p_n=0$ we can make a few simplifications.
+
+The expression for $$\frac{d\bar{n}}{dt}$$ can be simplified by rewriting the different summation terms. By changing the summation index and by noting that for $$n=0 \rightarrow n \ p_n=0$$ we can make a few simplifications.
 
 For the first summation term:
+
 $$
 \sum_{n=1}^\infty n\ p_{n-1} \rightarrow \sum_{n'=0}^\infty(n'+1)p_{n'}
 = \sum_{n'=0}^\infty n' \ p_{n'} + \sum_{n'=0}^\infty p_{n'} \\
@@ -88,6 +104,7 @@ $$
 $$
 
 For the second summation term:
+
 $$
 \sum_{n=1}^\infty n\ p_{n+1} \rightarrow \sum_{n=0}^\infty n\ p_{n+1}
 \rightarrow \sum_{n'=1}^\infty (n'-1)p_{n'} \\
@@ -96,38 +113,45 @@ $$
 $$
 
 For the third dummation term:
+
 $$
 \sum_{n=1}^\infty n \ p_n \rightarrow \sum_{n=0}^\infty n \ p_n \\
 = \bar{n}
 $$
 
 This simplifies $\frac{d\bar{n}}{dt}$ to the following:
+
 $$
 \frac{d\bar{n}}{dt} = \alpha\ \bar{n}+\alpha+\mu\ \bar{n}-\mu+\mu \ p_0 -\alpha \ \bar{n}- \mu \ \bar{n} \\
 \Rightarrow \alpha-\mu+\mu \ p_0
 $$
 
 
-### If $\alpha<\mu$, what happens at long times?
+## If $$\alpha<\mu$$, what happens at long times?
 
-Let's assume that as $t\rightarrow\infty$, the change in probabilities goes to zero, $\dot{p}_n\rightarrow0$. Using this assumption and the *master equation* we can find a recursion relation between the probabilities of different numbers of filaments.
+Let's assume that as $$t\rightarrow\infty$$, the change in probabilities goes to zero, $$\dot{p}_n\rightarrow0$$. Using this assumption and the *master equation* we can find a recursion relation between the probabilities of different numbers of filaments.
 
-$ n=0: p_1 = \frac{\alpha}{\mu}p_0$
-$ n=1: p_2 = \frac{\alpha}{\mu}p_1 = \left(\frac{\alpha}{\mu}\right)^2p_0$
+for $$ n=0: p_1 = \frac{\alpha}{\mu}p_0$$
+for $$ n=1: p_2 = \frac{\alpha}{\mu}p_1 = \left(\frac{\alpha}{\mu}\right)^2p_0$$
 
-A pattern emerges, and we can therefore say that the probability of being in a state with $n$ filaments is given by
+A pattern emerges, and we can therefore say that the probability of being in a state with $$n$$ filaments is given by
+
 $$ p_n = \left(\frac{\alpha}{\mu}\right)^n \ p_0. $$
-Let $\lambda \equiv \alpha/\mu$ so we can express the above statement as $ p_n = \lambda^n \ p_0. $
+
+Let $$\lambda \equiv \alpha/\mu$$ so we can express the above statement as $$ p_n = \lambda^n \ p_0. $$
 
 In order for our probabilities to be **normalized** we enforce that all the probabilities must sum to one.
+
 $$
 1 = \sum_{n=0}^\infty \lambda^n \ p_n = p_0 \ \sum_{n=0}^\infty \lambda^n = p_0 \frac{1}{1-\lambda} \\
 \Rightarrow p_0 = 1-\lambda \\
 p_n = (1-\lambda) \ \lambda^n
 $$
+
 This is known as a [geometric distribution](http://mathworld.wolfram.com/GeometricDistribution.html), it is like a discrete version of an exponential distribution.
 
-Now that we have a general form of $p_n$ we can calculate the mean of $n$.
+Now that we have a general form of $p_n$ we can calculate the mean of $$n$$.
+
 $$
 \bar{n} = \sum_{n=0}^\infty n(1-\lambda)\lambda^n \\
 \bar{n} = (1-\lambda)\sum_{n=0}^\infty  n \ \lambda^n = (1-\lambda)\lambda \ \partial_\lambda \sum_{n=0}^\infty \lambda^n \\
@@ -135,5 +159,7 @@ $$
 \Rightarrow \bar{n}(t\rightarrow\infty) = \frac{\lambda}{1-\lambda} \\
 \bar{n}(t\rightarrow\infty) = \frac{\alpha}{\mu-\alpha} > 0
 $$
-This result is good because it shows that $\bar{n}$ does not become negative in this model.
+
+This result is good because it shows that $$\bar{n}$$ does not become negative in this model.
+
 > Written with [StackEdit](https://stackedit.io/).
