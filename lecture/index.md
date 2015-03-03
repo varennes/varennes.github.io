@@ -12,7 +12,7 @@ title: Biophysics Lecture Notes
 5. lecture
 6. lecture
 7. lecture
-8. lecture
+8. [Bacteria Forward Motion](/lecture8/)
 9. [Flagellum Propulsion and Filament Dynamics](/lecture9/)
 10. [Filament Dyanmics](/lecture10/)
 11. [Dynamic Instability](/lecture11/)
