@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Connected Cell Diffusion Code
+---
 
 # The Algorithm
 
