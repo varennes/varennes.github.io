@@ -1,7 +1,8 @@
+---
+layout: post
+title: Connected Cell Diffusion Code
 
-# Connected Cell Diffusion
-
-## The Algorithm
+# The Algorithm
 
 There are three cases that the code handles.
 
@@ -12,7 +13,7 @@ There are three cases that the code handles.
 The single cell case is treated as a simple random walk. The edge cases and the general case are the more involved scenarios. Since cells can stretch or compress there are many different scenarios that can take place when cells try to move.
 The method used to determine which possible outcome will be chosen is explained [at the bottom of the page](#method).
 
-### <a id="edge"></a>Edge Case
+## <a id="edge"></a>Edge Case
 
 The *edge case* refers to the cell at the end or the beginning of the 1D chain of cells. Since this cell has only one neighbor this leads to different scenarios then the general case.
 In the following pictures assume that the **yellow** cell is the edge cell, and that the **blue** cell is its neighbor.
@@ -29,7 +30,7 @@ If the edge cell wants to move *out* -- the *rightward* direction -- there are t
 If the edge cell had been on the left as opposed to the right, the possible outcomes would be the reflections of the ones listed above.
 <br><br>
 
-### <a id="general"></a>General Case
+## <a id="general"></a>General Case
 
 The *general case* refers to a cell in the middle of the chain. This cell has neighbors on both of its sides.
 In the following pictures assume that the **yellow** cell is the principal cell, the **blue** cell is its  left neighbor, and the **red** cell is its right neighbor.
@@ -43,10 +44,10 @@ If the principal cell wants to move *rightward* there are the following possible
 <a href="https://www.flickr.com/photos/jjjvar/16688995866" title="Rightward movement"><img src="https://farm9.staticflickr.com/8618/16688995866_f744fcc1fa_o.png" width="786" alt="cells_3_right"></a>
 <br><br>
 
-### <a id="method"></a>Choosing the State
+## <a id="method"></a>Choosing the State
 
 We need a method to determine which state will be the chosen outcome. This is done by calculating the Hamiltonian of each state and then assigning a probability to that state.
-For a given state $s$ the Hamiltonian is given by
+For a given state $$s$$ the Hamiltonian is given by
 
 $$
 H_s = \sum_{j=1}^N \lambda\left(V_j-V_0\right)^2 - f\Delta x \ .\\
