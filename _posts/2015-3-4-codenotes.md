@@ -41,7 +41,7 @@ In the following pictures assume that the **yellow** cell is the principal cell,
 If the principal cell wants to move *leftward* there are the following possible states.
 <a href="https://www.flickr.com/photos/jjjvar/16094962943" title="Leftward movement"><img src="https://farm9.staticflickr.com/8566/16094962943_4d55b5b5ed_o.png" width="786" alt="cells_3_left"></a>
 <br><br>
-If the principal cell wants to move *rightward* there are the following possible states..
+If the principal cell wants to move *rightward* there are the following possible states.
 <a href="https://www.flickr.com/photos/jjjvar/16688995866" title="Rightward movement"><img src="https://farm9.staticflickr.com/8618/16688995866_f744fcc1fa_o.png" width="786" alt="cells_3_right"></a>
 <br><br>
 
@@ -55,11 +55,11 @@ H_s = \sum_{j=1}^N \lambda\left(V_j-V_0\right)^2 - f\Delta x \ .\\
 \begin{align*}
 \lambda &\equiv \text{compression coefficient} \\
 V_j &\equiv \text{volume off cell j} \\ V_0 &\equiv \text{relaxed cell volume} \\
-f &\equiv \text{force cell exerts} \\ \Delta x &\equiv \text{distance cell moves}
+f &\equiv \text{force cell exerts} \\ \Delta x &\equiv \text{cell displacement}
 \end{align*}
 $$
 
-The direction of the force is chosen randomly at the begin of each calculation. This will bias the principal cell's movement either to the left or right.
+The sign of $\Delta x$ depends on whether the cell's center of mass moves to the left(-) or to the right(+). The direction of the force is chosen randomly at the beginning of each calculation. This will bias the principal cell's movement either to the left or right.
 
 $$ f = \pm \vert\vec{f}\vert$$
 
