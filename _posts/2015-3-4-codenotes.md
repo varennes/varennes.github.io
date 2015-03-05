@@ -59,7 +59,7 @@ f &\equiv \text{force cell exerts} \\ \Delta x &\equiv \text{cell displacement}
 \end{align*}
 $$
 
-The sign of $\Delta x$ depends on whether the cell's center of mass moves to the left(-) or to the right(+). The direction of the force is chosen randomly at the beginning of each calculation. This will bias the principal cell's movement either to the left or right.
+The sign of $$\Delta x$$ depends on whether the cell's center of mass moves to the left(-) or to the right(+). The direction of the force is chosen randomly at the beginning of each calculation. This will bias the principal cell's movement either to the left or right.
 
 $$ f = \pm \vert\vec{f}\vert$$
 
