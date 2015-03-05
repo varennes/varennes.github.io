@@ -70,3 +70,24 @@ $$ p_s \propto e^{-\beta H_s} \ .$$
 The probabilities are normalized by summing over all the Boltzmann factors of the possible outcomes and the original state. The outcome is then chosen based on those normalized probabilities.
 
 $$ Z=\sum_s e^{-\beta H_s} \ \rightarrow \ p_s=\frac{e^{-\beta H_s}}{Z} $$
+
+### Simplifying parameters
+
+We can simplify our simulation by grouping together a lot of these parameters in order to have the probabilities depend on the least number of parameters possible.
+
+$$ \begin{align*}
+\alpha &\equiv \beta\lambda V_0^2\\
+\gamma &\equiv \beta \vert f\Delta x\vert
+\end{align*}$$
+
+And so our expression for the Hamiltonian reduces to the following:
+
+$$
+\beta H_s = \sum_{j=1}^N \alpha\left(\frac{V_j}{V_0}-1\right)^2 - \sigma_s\gamma \\
+\sigma_s = \begin{cases}
++1, & \text{if }\vec{f} \ \text{and} \ \Delta x\text{ are parallel} \\
+-1, & \text{if }\vec{f} \ \text{and} \ \Delta x\text{ are antiparallel}
+\end{cases}
+$$
+
+Now we can use this expression to calculate the probabilities of different states using the same procedure outlined above. Our parameter space now only consists of $$\alpha$$ and $$\gamma$$ which are both dimensionless quantities.
