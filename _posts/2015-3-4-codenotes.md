@@ -69,7 +69,7 @@ $$ p_s \propto e^{-\beta H_s} \ .$$
 
 The probabilities are normalized by summing over all the Boltzmann factors of the possible outcomes and the original state. The outcome is then chosen based on those normalized probabilities.
 
-$$ Z=\sum_s e^{-\beta H_s} \ \rightarrow \ p_s=\frac{e^{-\beta H_s}}{Z} $$
+$$ Z=\sum_s e^{-\beta H_s} \ \rightarrow \ p_s=\frac{e^{-\beta H_s}}{Z} \\ \beta\equiv\frac{1}{kT}$$
 
 ### Simplifying parameters
 
