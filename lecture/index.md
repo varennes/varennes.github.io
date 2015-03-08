@@ -10,7 +10,7 @@ title: Biophysics Lecture Notes
 3. lecture
 4. lecture
 5. lecture
-6. lecture
+6. [Lipid Geometry](/lecture6/)
 7. [Lipid Membran Shapes cont. & Cell Walls](/lecture7/)
 8. [Bacteria Forward Motion](/lecture8/)
 9. [Flagellum Propulsion & Filament Dynamics](/lecture9/)
