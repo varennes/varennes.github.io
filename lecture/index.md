@@ -19,3 +19,4 @@ title: Biophysics Lecture Notes
 12. [Molecular Motors](/lecture12/)
 13. [Double Headed Motors](/lecture13/)
 14. [Gene Networks](/lecture14/)
+15. [Gene Activation & Noise](/lecture15/)
