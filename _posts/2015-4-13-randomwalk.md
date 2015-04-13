@@ -31,27 +31,27 @@ $$\begin{align} d_\text{min} &= 40 \\ d_\text{max} &= 60 \\ \text{Reflective Bd.
 
 For a simulation of `N` cells, `N+1` random walkers are initialized.
 
-``` 
+~~~ fortran
     d = int((dmax-dmin)/2) + dmin
     rw(:) = 0
     do j = 2, N
         rw(j) = rw(j-1) + d
     enddo
-```
+~~~
 
 The walkers freely move each time step until the group of cells reaches the absorbing boundary.
 
-``` fortran
+~~~ fortran
     do while( runCheck /= 1 )
         tstep = tstep + 1
 
         rwOld = rw
         call walkstep( rw, N)
-```
+~~~
 
 We make sure that the cells stay within the simulation space and also do not hop over one another.
 
-``` fortran
+~~~ fortran
         do j = 2, N
         
             ! check for overlap and hopping
@@ -68,19 +68,19 @@ We make sure that the cells stay within the simulation space and also do not hop
             endif
             
         enddo
-```
+~~~
 
 We then check our criteria for completing a run. In this case it is when the midpoint of the group of cells first passes the absorbing boundary.
 
-``` fortran
+~~~ fortran
         if( rw(1)+int((rw(N)-rw(1))/2) == absbd )then
             runCheck = 1
         endif
-```
+~~~
 
 The subroutine `walkstep` choose the direction of the random walk of each walker.
 
-``` fortran
+~~~ fortran
 subroutine walkstep( rw, N)
     implicit none
     integer, intent(in) :: N
@@ -98,5 +98,5 @@ subroutine walkstep( rw, N)
         endif
     enddo
 end subroutine walkstep
-```
+~~~
 
