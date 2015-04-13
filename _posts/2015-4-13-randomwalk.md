@@ -1,3 +1,8 @@
+---
+layout: post
+title: 1D Cell Diffusion
+---
+
 
 # Cells as Random Walkers
 
