@@ -31,7 +31,7 @@ $$\begin{align} d_\text{min} &= 40 \\ d_\text{max} &= 60 \\ \text{Reflective Bd.
 
 For a simulation of `N` cells, `N+1` random walkers are initialized.
 
-``` fortran
+``` 
     d = int((dmax-dmin)/2) + dmin
     rw(:) = 0
     do j = 2, N
@@ -100,4 +100,3 @@ subroutine walkstep( rw, N)
 end subroutine walkstep
 ```
 
-> Written with [StackEdit](https://stackedit.io/).
