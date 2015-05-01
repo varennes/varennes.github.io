@@ -22,3 +22,6 @@ title: Biophysics Lecture Notes
 15. [Gene Activation & Noise](/lecture15/)
 16. [Noise & the Generating Function](/lecture16/)
 17. [Network Motifs](/lecture17/)
+18. [Autoregulation, Stochasitc Model](/lecture18/)
+19. [Autoregulation, Linear Noise Approximation](/lecture19/)
+20. [3 Node Motifs](/lecture20/)
