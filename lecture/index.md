@@ -9,7 +9,7 @@ title: Biophysics Lecture Notes
 2. lecture
 3. lecture
 4. lecture
-5. lecture
+5. [Polymer concluding remarks and Intro to Lipids](/lecture5/)
 6. [Lipid Geometry](/lecture6/)
 7. [Lipid Membran Shapes cont. & Cell Walls](/lecture7/)
 8. [Bacteria Forward Motion](/lecture8/)
@@ -25,3 +25,4 @@ title: Biophysics Lecture Notes
 18. [Autoregulation, Stochasitc Model](/lecture18/)
 19. [Autoregulation, Linear Noise Approximation](/lecture19/)
 20. [3 Node Motifs](/lecture20/)
+21. [Feedforward Loops](/lecture21/)
