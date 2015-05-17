@@ -7,8 +7,8 @@ title: Biophysics Lecture Notes
 
 1. lecture
 2. lecture
-3. lecture
-4. lecture
+3. [Polymers & the Freely Jointed Chain cont.](/lecture3/)
+4. [Polymer Force Extension](/lecture4/)
 5. [Polymer concluding remarks and Intro to Lipids](/lecture5/)
 6. [Lipid Geometry](/lecture6/)
 7. [Lipid Membran Shapes cont. & Cell Walls](/lecture7/)
