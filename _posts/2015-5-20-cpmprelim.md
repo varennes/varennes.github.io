@@ -63,7 +63,7 @@ $$ \alpha \equiv \text{cell-cell boundary energy} \\ \beta \equiv \text{free-cel
 
 Please be aware of the difference between this use of $\alpha$ and that in the context of diffusion.
 
-In the Szabo paper $$\alpha \in \{1,2,3,4\}$$ and $$\beta = 1$$. However, in the paper's simulations of cell monolayers there are no free-cell boundaries so the $\beta$ parameter becomes irrelevant. The paper reports that increasing $$\alpha$$ causes movement of cells within the monolayer to decrease. This makes sense since increasing $\alpha$ cause the energy due to changing the cell boundaries to increase making movement less probable.
+In the Szabo paper $$\alpha \in \{1,2,3,4\}$$ and $$\beta = 1$$. However, in the paper's simulations of cell monolayers there are no free-cell boundaries so the $\beta$ parameter becomes irrelevant. The paper reports that increasing $$\alpha$$ causes movement of cells within the monolayer to decrease. This makes sense since increasing $$\alpha$$ cause the energy due to changing the cell boundaries to increase making movement less probable.
 
 I believe that mimicking the values of $$\alpha$$ and $$\beta$$ from the paper is not productive since we do want to consider a group of cells with free-cell boundaries. If $$\alpha > \beta$$ then cell-cell boundaries are not favorable which will cause the group of cells to break apart. Therefore, we should restrict the parameters to $$\alpha < \beta$$ in order to maintain cell-cell contact.
 
@@ -76,7 +76,7 @@ So I have chosen the following values for the parameters.
 
 $$ \alpha = 0.5 \\ \beta = 1.0 $$
 
-This satisfies the criteria for favorable cell-cell contact, and also keeps the same value of $\beta$ from single cell simulations.
+This satisfies the criteria for favorable cell-cell contact, and also keeps the same value of $$\beta$$ from single cell simulations.
 
 Below is a a video for the case of $$\alpha = 0.5$$ and $$\beta = 1$$.
 
