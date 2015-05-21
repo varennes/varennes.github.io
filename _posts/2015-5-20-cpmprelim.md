@@ -1,7 +1,7 @@
- ---
- title: CPM Model Results
- layout: post
- ---
+---
+title: CPM Model Results
+layout: post
+---
 
 # 1 Cell
 
