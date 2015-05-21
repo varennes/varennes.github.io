@@ -107,13 +107,13 @@ The results shown will be for the case of $$\alpha = 0.5$$ and $$\beta = 1$$$ an
 
 We can get a better for what is going on if we plot the fits for each respective data set.
 
-<img src="https://c2.staticflickr.com/6/5470/17289600884_63fdb9657f_o.png" width="560" height="420" alt="small_mltcells_msd_2"></a>
+<img src="https://c2.staticflickr.com/6/5470/17289600884_63fdb9657f_o.png" width="560" height="420" alt="small_mltcells_msd_2">
 
 As you can see as the number of cells in a group increases so does $$\alpha$$. So as the number of cells increases diffusion of the group becomes more anomalous.
 
 Lets see what happens to the diffusion coefficient as the group size changes.
 
-<img src="https://c4.staticflickr.com/8/7751/17909135362_b55b08382e_o.png" width="560" height="420" alt="small_mltcells_diff"></a>
+<img src="https://c4.staticflickr.com/8/7751/17909135362_b55b08382e_o.png" width="560" height="420" alt="small_mltcells_diff">
 
 The overall behavior is that as the group size increases the diffusion coefficient decreases to some lower bound.
 
