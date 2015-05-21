@@ -68,11 +68,11 @@ I atte$mpted to overlay this plot onto that from the paper in order to see$ how$
 
 <img src="https://c1.staticflickr.com/9/8817/17909154102_b134969b43_o.png" width="553" height="402" alt="szabo_comparison">
 
-As you can $see the$ data $from the$ simulations (bottom blue) is very similar to the black curve from the paper. The slopes seem to be in agreemen$t but there$ is an off set which corresponds to a difference in diffusion coefficients. I believe that some of the off set is due my plot not exactl$y lining up wit$h how the plot from the paper scales but this still that does not explain away the whole off set.
+As you can see the data from the simulations (bottom blue) is very similar to the black curve from the paper. The slopes seem to be in agreement but there is an off set which corresponds to a difference in diffusion coefficients. I believe that some of the off set is due my plot not exactly lining up with how the plot from the paper scales but this still that does not explain away the whole off set.
 
 # Multiple Cells
 
-In the case$ of multipl$e cell$s the re$lative values of the energy terms associated with free-cell and cell-cell boundaries are important.
+In the case$ of multiple cells the re$lative values of the energy terms associated with free-cell and cell-cell boundaries are important.
 
 $$ \alpha \equiv \text{cell-cell boundary energy} \\ \beta \equiv \text{free-cell boundary} $$
 
@@ -103,19 +103,19 @@ The results shown will be for the case of $$\alpha = 0.5$$ and $$\beta = 1$$ and
 
 <img src="https://c2.staticflickr.com/6/5459/17940797975_cf89ff1b62_o.png" width="560" height="420" alt="small_mltcells_msd_1">
 
-We can get a better for what is going on if we plot the fits for each respective data set.
+We can get a better understanding for what is going on if we plot the fits for each respective data set.
 
 <img src="https://c4.staticflickr.com/8/7718/17753204430_b2ec990e5f_o.png" width="560" height="420" alt="small_mltcells_msd_2">
 
 <img src="https://c1.staticflickr.com/9/8852/17914400446_abee37c2cb_o.png" width="560" height="420" alt="small_mltcells_msd_3">
 
-As you can see as the number of cells in a group increases so does $\alpha$. So as the number of cells increases diffusion of the group becomes more anomalous.
+As you can see as the number of cells in a group increases so does $$\alpha$$. So as the number of cells increases diffusion of the group becomes more anomalous.
 
 Lets see what happens to the diffusion coefficient as the group size changes.
 
 <img src="https://c4.staticflickr.com/8/7695/17914443806_4e0e2693c1_o.png" width="560" height="420" alt="small_mltcells_diff">
 
-The overall behavior is that as the group size increases the diffusion coefficient decreases and it seems to be approaching some lower bound. So even though $$$\alpha$$ increases this does not lead to faster diffusion for larger groups since the diffusion coefficient decreases.
+The overall behavior is that as the group size increases the diffusion coefficient decreases and it seems to be approaching some lower bound. So even though $$\alpha$$ increases this does not lead to faster diffusion for larger groups since the diffusion coefficient decreases.
 
 # Notes on Calculating Diffusion Coefficient and $$\alpha$$
 
