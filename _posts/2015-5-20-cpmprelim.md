@@ -62,7 +62,7 @@ We can translate our data into these units and plot the mean displacement.
 
 <img src="https://c2.staticflickr.com/6/5339/17912201945_65007d2039_o.png" width="560" height="420" alt="1cell_msd_2">
 
-This appears to be in good agreement with the results from the paper. At 10 hours the mean displacement is around $$10 \mu\text{m}$$ which is inline with the results from the$ paper.
+This appears to be in good agreement with the results from the paper. At 10 hours the mean displacement is around $$10 \mu\text{m}$$ which is inline with the results from the paper.
 
 I attempted to overlay this plot onto that from the paper in order to see how well the data matched up. 
 
