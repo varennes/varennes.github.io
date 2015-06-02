@@ -62,21 +62,21 @@ We can translate our data into these units and plot the mean displacement.
 
 <img src="https://c2.staticflickr.com/6/5339/17912201945_65007d2039_o.png" width="560" height="420" alt="1cell_msd_2">
 
-This appears to be in good agreement with the results from the paper. At 10 hours the mean displacement is around $$10 \mu\text{m}$$$ which is inline with the results from the$ paper.$
+This appears to be in good agreement with the results from the paper. At 10 hours the mean displacement is around $$10 \mu\text{m}$$ which is inline with the results from the$ paper.
 
-I atte$mpted to overlay this plot onto that from the paper in order to see$ how$ well the data matc$hed$ u$p$. 
+I attempted to overlay this plot onto that from the paper in order to see how well the data matched up. 
 
 <img src="https://c1.staticflickr.com/9/8817/17909154102_b134969b43_o.png" width="553" height="402" alt="szabo_comparison">
 
-As you can see the data from the simulations (bottom blue) is very similar to the black curve from the paper. The slopes seem to be in agreement but there is an off set which corresponds to a difference in diffusion coefficients. I believe that some of the off set is due my plot not exactly lining up with how the plot from the paper scales but this still that does not explain away the whole off set.
+As you can see the data from the simulations (bottom blue) is very similar to the black curve from the paper. The slopes seem to be in agreement but there is an off set which corresponds to a difference in diffusion coefficients. I believe that some of the off set is due my plot not exactly lining up with how the plot from the paper scales but this still does not explain away the whole off set.
 
 # Multiple Cells
 
-In the case$ of multiple cells the re$lative values of the energy terms associated with free-cell and cell-cell boundaries are important.
+In the case of multiple cells the re$lative values of the energy terms associated with free-cell and cell-cell boundaries are important.
 
 $$ \alpha \equiv \text{cell-cell boundary energy} \\ \beta \equiv \text{free-cell boundary} $$
 
-Please be aware of the difference between this use of $\alpha$ and that in the context of diffusion.
+Please be aware of the difference between this use of $$\alpha$$ and that in the context of diffusion.
 
 In the Szabo paper $$\alpha \in \{1,2,3,4\}$$ and $$\beta = 1$$. However, in the paper's simulations of cell monolayers there are no free-cell boundaries so the $$\beta$$ parameter becomes irrelevant. The paper reports that increasing $$\alpha$$ causes movement of cells within the monolayer to decrease. This makes sense since increasing $$\alpha$$ cause the energy due to changing the cell boundaries to increase making movement less probable.
 
@@ -91,7 +91,7 @@ So I have chosen the following values for the parameters.
 
 $$ \alpha = 0.5 \\ \beta = 1.0 $$
 
-This satisfies the criteria for favorable cell-cell contact, and also keeps the same value of $\beta$ from single cell simulations.
+This satisfies the criteria for favorable cell-cell contact, and also keeps the same value of $$\beta$$ from single cell simulations.
 
 Below is a a video for the case of $$\alpha = 0.5$$ and $$\beta = 1$$.
 
