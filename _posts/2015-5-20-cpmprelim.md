@@ -20,7 +20,7 @@ For 2-dimensional diffusion the MSD should obey the following relationship
 
 $$ d^2 = 4Dt^\alpha \ . $$
 
-Where $D$ is the *diffusion coefficient* and $\alpha$ should be equal to 1.
+Where $$D$$ is the *diffusion coefficient* and $$\alpha$$ should be equal to 1.
 
 ### Results
 
@@ -29,7 +29,7 @@ Where $D$ is the *diffusion coefficient* and $\alpha$ should be equal to 1.
 
 <img src="https://c2.staticflickr.com/6/5323/17914128246_ba675a9e68_o.png" width="560" height="420" alt="1cell_msd">
 
-So fitting our whole data we get the following values for $\alpha$ and $D$ (in simulation units).
+So fitting our whole data we get the following values for $$\alpha$$ and $$D$$ (in simulation units).
 
 $$ \alpha = 1.1418 \\ D = 0.0267 $$
 
@@ -56,13 +56,13 @@ Here is a movie of a typical cell.
 
 <img src="https://c1.staticflickr.com/9/8863/17291731253_55e2ae6dea_o.png" width="560" height="420" alt="1cell_msd_1">
 
-The results look good! The single cell with a relaxed area of 50 pixels does exhibit normal diffusion. We can also compare our results to that of the [Szabo *et al* paper](http://iopscience.iop.org/1478-3975/7/4/046007) to see how our simulation compares. To do this one MC time step becomes one minute and the distance between one lattice site become 5$\mu\text{m}$.
+The results look good! The single cell with a relaxed area of 50 pixels does exhibit normal diffusion. We can also compare our results to that of the [Szabo *et al* paper](http://iopscience.iop.org/1478-3975/7/4/046007) to see how our simulation compares. To do this one MC time step becomes one minute and the distance between one lattice site becomes 5$$\mu\text{m}$$.
 
 We can translate our data into these units and plot the mean displacement.
 
 <img src="https://c2.staticflickr.com/6/5339/17912201945_65007d2039_o.png" width="560" height="420" alt="1cell_msd_2">
 
-This appears to be in good agreement with the results from the paper. At 10 hours the mean displacement is around $10 \mu\text{m}$ which is inline with the results from the paper.
+This appears to be in good agreement with the results from the paper. At 10 hours the mean displacement is around $$10 \mu\text{m}$$ which is inline with the results from the paper.
 
 I attempted to overlay this plot onto that from the paper in order to see how well the data matched up. 
 
@@ -76,13 +76,13 @@ In the case of multiple cells the relative values of the energy terms associated
 
 $$ \alpha \equiv \text{cell-cell boundary energy} \\ \beta \equiv \text{free-cell boundary} $$
 
-Please be aware of the difference between this use of $\alpha$ and that in the context of diffusion.
+Please be aware of the difference between this use of $$\alpha$$ and that in the context of diffusion.
 
-In the Szabo paper $\alpha \in \{1,2,3,4\}$ and $\beta = 1$. However, in the paper's simulations of cell monolayers there are no free-cell boundaries so the $\beta$ parameter becomes irrelevant. The paper reports that increasing $\alpha$ causes movement of cells within the monolayer to decrease. This makes sense since increasing $\alpha$ cause the energy due to changing the cell boundaries to increase making movement less probable.
+In the Szabo paper $$\alpha \in \{1,2,3,4\}$$ and $$\beta = 1$$. However, in the paper's simulations of cell monolayers there are no free-cell boundaries so the $$\beta$$ parameter becomes irrelevant. The paper reports that increasing $$\alpha$$ causes movement of cells within the monolayer to decrease. This makes sense since increasing $$\alpha$$ causes the energy due to changing the cell boundaries to increase making movement less probable.
 
-I believe that mimicking the values of $\alpha$ and $\beta$ from the paper is not productive since we do want to consider a group of cells with free-cell boundaries. If $\alpha > \beta$ then cell-cell boundaries are not favorable which will cause the group of cells to break apart. Therefore, we should restrict the parameters to $\alpha < \beta$ in order to maintain cell-cell contact.
+I believe that mimicking the values of $$\alpha$$ and $$\beta$$ from the paper is not productive since we do want to consider a group of cells with free-cell boundaries. If $$\alpha > \beta$$ then cell-cell boundaries are not favorable which will cause the group of cells to break apart. Therefore, we should restrict the parameters to $$\alpha < \beta$$ in order to maintain cell-cell contact.
 
-Here is a video for the case of $\alpha = 2$ and $\beta=1$.
+Here is a video for the case of $$\alpha = 2$$ and $$\beta=1$$.
 
 <iframe src="https://docs.google.com/file/d/0B9wUAi2m2Di9alRsUGRSSDlTbzg/preview" width="320" height="240"></iframe>
 <b></b>
@@ -91,9 +91,9 @@ So I have chosen the following values for the parameters.
 
 $$ \alpha = 0.5 \\ \beta = 1.0 $$
 
-This satisfies the criteria for favorable cell-cell contact, and also keeps the same value of $\beta$ from single cell simulations.
+This satisfies the criteria for favorable cell-cell contact, and also keeps the same value of $$\beta$$ from single cell simulations.
 
-Below is a a video for the case of $\alpha = 0.5$ and $\beta = 1$.
+Below is a a video for the case of $$\alpha = 0.5$$ and $$\beta = 1$$.
 
 <iframe src="https://docs.google.com/file/d/0B9wUAi2m2Di9Ym1EVnFWd1B2ZkU/preview" width="320" height="240"></iframe>
 
@@ -101,17 +101,17 @@ Below is a a video for the case of $\alpha = 0.5$ and $\beta = 1$.
 
 Here are updated results with tracking of the whole group of cells center of mass properly implemented.
 
-As before, $\alpha = 0.5$ and $\beta = 1$ and a relaxed area of 4 pixels.
+As before, $$\alpha = 0.5$$ and $$\beta = 1$$ and a relaxed area of 4 pixels.
 
-The results shown will be for the case of $\alpha = 0.5$ and $\beta = 1$ and a relaxed area of 4 pixels. Below are the results for the MSD for groups of various number of cells.
+The results shown will be for the case of $$\alpha = 0.5$$ and $$\beta = 1$$ and a relaxed area of 4 pixels. Below are the results for the MSD for groups of various number of cells.
 
 <img src="https://c4.staticflickr.com/8/7757/18235266368_023aabb6f2_o.png" width="560" height="420" alt="small_mlt_com_msd_1">
 
-We can get a better for what is going on if we plot the fits for each respective data set.
+We can get a better idea for what is going on if we plot the fits for each respective data set.
 
 <img src="https://c4.staticflickr.com/8/7785/18424778721_da1fdf6e9b_o.png" width="560" height="420" alt="small_mlt_com_msd_2">
 
-Notice that the groups move slower of the number of cells in a group increases. The relationship between MSD and time remains linear as the number of cells varies.
+Notice that the groups move slower as the number of cells in a group increases. The relationship between MSD and time remains linear as the number of cells varies.
 
 Lets see what happens to the diffusion coefficient as the group size changes.
 
@@ -130,15 +130,15 @@ We can get a better for what is going on if we plot the fits for each respective
 
 <img src="https://c1.staticflickr.com/9/8852/17914400446_abee37c2cb_o.png" width="560" height="420" alt="small_mltcells_msd_3">
 
-As you can see as the number of cells in a group increases so does $\alpha$. So as the number of cells increases diffusion of the group becomes more anomalous.
+As you can see as the number of cells in a group increases so does $$\alpha$$. So as the number of cells increases diffusion of the group becomes more anomalous.
 
 Lets see what happens to the diffusion coefficient as the group size changes.
 
 <img src="https://c4.staticflickr.com/8/7695/17914443806_4e0e2693c1_o.png" width="560" height="420" alt="small_mltcells_diff">
 
-The overall behavior is that as the group size increases the diffusion coefficient decreases and it seems to be approaching some lower bound. So even though $\alpha$ increases this does not lead to faster diffusion for larger groups since the diffusion coefficient decreases.
+The overall behavior is that as the group size increases the diffusion coefficient decreases and it seems to be approaching some lower bound. So even though $$\alpha$$ increases this does not lead to faster diffusion for larger groups since the diffusion coefficient decreases.
 
-# Notes on Calculating Diffusion Coefficient and $\alpha$
+# Notes on Calculating Diffusion Coefficient and $$\alpha$$
 
 Assume that the mean square displacement (MSD) follows the relationship
 
@@ -148,7 +148,7 @@ $$\begin{align*}
 \ln d^2 &= \ln \left( 4Dt^\alpha \right)  \\ &= \ln 4D + \alpha \ln t
 \end{align*}$$
 
-The simulations give us data for $d^2$ as a function of the number of time steps taken $t$. Taking the logarithm of the data obtained we should be able to fit it to a linear function.
+The simulations give us data for $$d^2$$ as a function of the number of time steps taken $$t$$. Taking the logarithm of the data obtained we should be able to fit it to a linear function.
 
 $$ \begin{align*}
 \ln d^2 &\to y \\
