@@ -26,3 +26,5 @@ title: Biophysics Lecture Notes
 19. [Autoregulation, Linear Noise Approximation](/lecture19/)
 20. [3 Node Motifs](/lecture20/)
 21. [Feedforward Loops](/lecture21/)
+22. [Repressilitator](/lecture22/)
+23. [Competance in Bacteria](/lecture23/)
