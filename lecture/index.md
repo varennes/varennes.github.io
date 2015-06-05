@@ -5,8 +5,8 @@ title: Biophysics Lecture Notes
 
 #### [Course Details](http://www.physics.purdue.edu/academic-programs/courses/course_detail.php?SEM=spring2015&c=phys570J) 
 
-1. lecture
-2. [PDF link](https://drive.google.com/file/d/0B9wUAi2m2Di9bXA1eW44YUluRWM/view?usp=sharing)
+1. [Intro to Polymers (direct PDF link)](https://drive.google.com/file/d/0B9wUAi2m2Di9TTJDUjV0OWZWZzA/view?usp=sharing)
+2. [Intro to Polymers, part 2 (direct PDF link)](https://drive.google.com/file/d/0B9wUAi2m2Di9bXA1eW44YUluRWM/view?usp=sharing)
 3. [Polymers & the Freely Jointed Chain cont.](/lecture3/)
 4. [Polymer Force Extension](/lecture4/)
 5. [Polymer concluding remarks and Intro to Lipids](/lecture5/)
