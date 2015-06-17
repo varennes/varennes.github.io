@@ -10,6 +10,8 @@ I am a physics Phd student at [Purdue University](http://www.physics.purdue.edu/
 
 I work in the field of biophysics. I am interested in problems pertaining to collective cell sensing and how that affects cell migration.
 
+Here is a link to my [brief cv](https://drive.google.com/file/d/0B9wUAi2m2Di9aFNlZ1VTRVJfblk/view?usp=sharing).
+
 #### Contact me
 
 Send me an email using the mail icon at the bottom of the page!
