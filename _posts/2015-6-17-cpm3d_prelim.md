@@ -4,6 +4,7 @@ layout: post
 ---
 
 **Simulation Parameters:**
+
 - Each cell has a relaxed area of 27 lattice sites.
 	- Cells are initialized as `3x3x3` cubes.
 - Each simulation runs for 300 Monte Carlo (MC) time steps.
