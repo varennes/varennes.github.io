@@ -1,5 +1,7 @@
-
-# 3D CPM Simulation Results
+---
+title: 3D CPM Simulation Results
+layout: post
+---
 
 **Simulation Parameters:**
 - Each cell has a relaxed area of 27 lattice sites.
@@ -12,7 +14,7 @@
 
 $$ d^2 = 4Dt^\alpha $$
 
-For normal diffusion $\alpha = 1$ and $D$ is the diffusion coefficient. As $\alpha$ gets further away form 1 diffusion becomes anomalous and $D$ is no longer the normal diffusion coefficient since it doesn't have the units of $[\text{length}]^2 [ \text{time}]^{-1} $.
+For normal diffusion $$\alpha = 1$$ and $$D$$ is the diffusion coefficient. As $$\alpha$$ gets further away form 1 diffusion becomes anomalous and $$D$$ is no longer the normal diffusion coefficient since it doesn't have the units of $$[\text{length}]^2 [ \text{time}]^{-1} $$.
 
 ## Results
 
@@ -20,13 +22,13 @@ Here are the results for groups of different sizes with the parameters listed ab
 
 ![3D MSD](https://lh5.googleusercontent.com/UVb_Zm935604iSiJ8s2Oi0rmOdNueBH8nc74G7yEtN5Bb-H5UqzszeZTUbsnNkPsP0mY7tFQt3j1j4w=w1896-h816)
 
-From the Szabo paper we know that cells should exhibit normal diffusion for times when the displacement is on (or above) the order of the size of the cells. This corresponds to times where $\ln\text{MSD} \gtrsim 0 $. We see that for most of the cases this criteria is not met within 300 MC time steps.
+From the Szabo paper we know that cells should exhibit normal diffusion for times when the displacement is on (or above) the order of the size of the cells. This corresponds to times where $$\ln\text{MSD} \gtrsim 0 $$. We see that for most of the cases this criteria is not met within 300 MC time steps.
 
 ![3D MSD zoom-in](https://lh6.googleusercontent.com/7DtPe5RKQEfQy14hAKJZNPgzNNgnVj9HMtSKpPo05wzD2UTb1CJrrJUIGD3KL9WLGjbTxzWetJRYWPo=w1896-h816)
 
 If we look at the last 200 MC time steps, we see that only cell groups of one and four cells meet this criteria. So we should expect normal diffusive behavior for those two cases and anomalous behavior for larger groups.
 
-Fitting the data lets us calculate values for $\alpha$ and $D$.
+Fitting the data lets us calculate values for $$\alpha$$ and $$D$$.
 
 ![3D alpha](https://lh5.googleusercontent.com/GsSTrWbtGA21E0zBfXvwCK_E-_mFpTgU_2eMLjXz1auwZSwxpUR2drzxrBzmBj3wT1vKCj5GMtGEDW8=w1896-h816)
 
