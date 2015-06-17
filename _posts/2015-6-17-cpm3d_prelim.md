@@ -15,7 +15,7 @@ layout: post
 
 $$ d^2 = 4Dt^\alpha $$
 
-For normal diffusion $$\alpha = 1$$ and $$D$$ is the diffusion coefficient. As $$\alpha$$ gets further away form 1 diffusion becomes anomalous and $$D$$ is no longer the normal diffusion coefficient since it doesn't have the units of $$[\text{length}]^2 [ \text{time}]^{-1} $$.
+For normal diffusion $$\alpha = 1$$ and $$D$$ is the diffusion coefficient. As $$\alpha$$ gets further away from 1 diffusion becomes anomalous and $$D$$ is no longer the normal diffusion coefficient since it doesn't have the units of $$[\text{length}]^2 [ \text{time}]^{-1} $$.
 
 ## Results
 
