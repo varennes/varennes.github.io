@@ -28,6 +28,7 @@ title: Biophysics Lecture Notes
 21. [Feedforward Loops](/lecture21/)
 22. [Repressilator](/lecture22/)
 23. [Competance in Bacteria](/lecture23/)
+24. [Bacteria Motion and Tumbling](/lecture24/)
 
 
 Please email me using the mail icon below regarding any typos or errors!
