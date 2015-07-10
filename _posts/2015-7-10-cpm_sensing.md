@@ -1,5 +1,5 @@
 ---
-title: CPM Cell Sensing Implementation
+title: CPM Cell Sensing
 layout: post
 ---
 
