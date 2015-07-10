@@ -64,7 +64,7 @@ $$
 \eta_{x_k} = \sqrt{\kappa\bar{s}_k}\xi_2 - \sqrt{\mu \bar{x}_k} \xi_3
 $$
 
-$$\xi_i$$ are unit Gaussian variables that make-up the noise $\eta_{x_k}$ in the local reporter. In steady-state we can solve for $$x_k$$ and $$\bar{x}_k$$.
+$$\xi_i$$ are unit Gaussian variables that make-up the noise $$\eta_{x_k}$$ in the local reporter. In steady-state we can solve for $$x_k$$ and $$\bar{x}_k$$.
 
 $$
 \bar{x}_k = \frac{\kappa}{\mu}\bar{s}_k \\
@@ -75,7 +75,7 @@ Similar to the chemical concentration signal we can sample $$x_k$$ from a distri
 
 <img src="https://c1.staticflickr.com/1/257/19503561995_c1028ef73b.jpg" width="395" height="500" alt="signalconcentration_2">
 
-Here is an example of the distribution in values of $x_k$ given some distribution of $$s_k$$. Again, $$x_k$$ is restricted to be non-negative values only.
+Here is an example of the distribution in values of $$x_k$$ given some distribution of $$s_k$$. Again, $$x_k$$ is restricted to be non-negative values only.
 
 ## Global Species
 
@@ -91,7 +91,7 @@ The movement of $$y$$ in and out cells depends on the size of the boundary overl
 
 $$ \gamma_{<j,k>} = G L_{<j,k>} \\ L_{<j,k>} \equiv \text{Length of boundary overlap}$$
 
-Note that $\gamma_{j,k}$ has a few interesting properties.
+Note that $$\gamma_{j,k}$$ has a few interesting properties.
 
 $$ \gamma_{j,k} = \gamma_{k,j} \ \ \ \ \ \ \ \gamma_{j,j} = 0 $$
 
@@ -126,41 +126,41 @@ $$ \begin{align*}
 + \sum_{j=1}^N \left[ \chi_{j,k} \sqrt{\gamma_{j,k}} \left( \sqrt{\bar{y}_j}-\sqrt{\bar{y}_k} \right) \right]
 \end{align*}$$
 
-As in the local species case, $\xi_i$ and $\chi_{j,k}$ are unit Gaussian variables that contribute to the noise in the global reporter. In order to compute $\eta_{y_k}$ we need to know the average number $\bar{y}$ in every cell.
+As in the local species case, $$\xi_i$$ and $$\chi_{j,k}$$ are unit Gaussian variables that contribute to the noise in the global reporter. In order to compute $$\eta_{y_k}$$ we need to know the average number $$\bar{y}$$ in every cell.
 
 $$\begin{align*}
 \kappa \vec{\bar{s}} &= M \ \vec{\bar{y}} \\ \Rightarrow \vec{\bar{y}} &= \kappa \ M^{-1} \ \vec{\bar{s}}
 \end{align*}$$
 
-Using this we can then solve for the actual measured value of the global reporter in each cell $\vec{y}$.
+Using this we can then solve for the actual measured value of the global reporter in each cell $$\vec{y}$$.
 
 $$ \vec{y} = M^{-1} \left( \kappa \vec{s} + \vec{\eta}_y \right) $$
 
 ### Implementation
 
-All possible values of $\gamma_{j,k}$ are stored in an array `gNN`, such that `gNN(j,k)` corresponds to $\gamma_{j,k}$. Below is a list of subroutines/functions that implement the above dynamics.
+All possible values of $$\gamma_{j,k}$$ are stored in an array `gNN`, such that `gNN(j,k)` corresponds to $$\gamma_{j,k}$$. Below is a list of subroutines/functions that implement the above dynamics.
 
-- Subroutine `makeMtrxGamma( gNN, N, rSim, sigma, x)` calculates all $\gamma_{j,k}$ values.
-- Subroutine `makeMtrxM( gNN, M, N)` calculates the values of all matrix elements $M_{j,k}$.
-- Subroutine `getMeanY( meanSignal, M, meanY, N)` calculates the vector $\vec{\bar{y}}$.
-- Subroutine `getEtaY( etaY, gNN, meanSignal, meanY, N)` calculates the vector $\vec{\eta}_y$.
-- Subroutine `getSpeciesY( etaY, M, N, signal, y)`  calculates the population of $y$ in each cell.
+- Subroutine `makeMtrxGamma( gNN, N, rSim, sigma, x)` calculates all $$\gamma_{j,k}$$ values.
+- Subroutine `makeMtrxM( gNN, M, N)` calculates the values of all matrix elements $$M_{j,k}$$.
+- Subroutine `getMeanY( meanSignal, M, meanY, N)` calculates the vector $$\vec{\bar{y}}$$.
+- Subroutine `getEtaY( etaY, gNN, meanSignal, meanY, N)` calculates the vector $$\vec{\eta}_y$$.
+- Subroutine `getSpeciesY( etaY, M, N, signal, y)`  calculates the population of $$y$$ in each cell.
 
 <img src="https://farm4.staticflickr.com/3766/19371681039_e7d0aa0471.jpg" width="395" height="500" alt="signal_x_y_1">
 
-Here is an example of the distribution in values of $x_k$ and $y_k$ given some distribution of $s_k$ in a simulation involving only one cell. The chemical concentration profile has the same gradient as in the previous examples, but the off-set has been increased.
+Here is an example of the distribution in values of $$x_k$$ and $$y_k$$ given some distribution of $$s_k$$ in a simulation involving only one cell. The chemical concentration profile has the same gradient as in the previous examples, but the off-set has been increased.
 
 ## Downstream Readout
 
-Once the values of $x_k$ and $y_k$ are calculated for all cells involved we can measure the downstream output $R_k$.
+Once the values of $$x_k$$ and $$y_k$$ are calculated for all cells involved we can measure the downstream output $$R_k$$.
 
 $$ \vec{R} = \vec{x} - \vec{y} $$
 
-Below is the result over many instances (1000) of a simulation involving a chain of 10 cells sitting parallel to the chemical gradient. Each data point represents the mean value of $R$ at each cell, and the errors bars represent $\pm$ one standard deviation.
+Below is the result over many instances (1000) of a simulation involving a chain of 10 cells sitting parallel to the chemical gradient. Each data point represents the mean value of $$R$$ at each cell, and the errors bars represent $$\pm$$ one standard deviation.
 
 <div id="container">
-<img src="https://farm4.staticflickr.com/3816/19557796645_1062007d92.jpg" width="390" height="500" alt="chem_R_cell_1">
-<img src="https://farm1.staticflickr.com/301/19371394089_bf4cbfc851.jpg" width="390" height="500" alt="chem_R_cell_2">
+<img src="https://farm4.staticflickr.com/3816/19557796645_1062007d92.jpg" width="290" height="450" alt="chem_R_cell_1">
+<img src="https://farm1.staticflickr.com/301/19371394089_bf4cbfc851.jpg" width="290" height="450" alt="chem_R_cell_2">
 </div>
 
 The figure on the left is representative of simulations with a relatively large gradient whereas the figure on the right is of simulations with a shallow gradient. As you can see the larger the gradient the less noisy the output becomes.
@@ -171,14 +171,14 @@ The cell sensing and signaling network will influence the polarization of the in
 
 ### Polarization
 
-It is the downstream output $R_k$ which will contribute to the change in the cell's polarization vector. The change in the polarization vector of cell $k$ at every Monte Carlo time step is given as
+It is the downstream output $$R_k$$ which will contribute to the change in the cell's polarization vector. The change in the polarization vector of cell $$k$$ at every Monte Carlo time step is given as
 
 $$
 \Delta\vec{p}_k = -r\vec{p}_k + \epsilon \tfrac{R_k}{R_0} \Delta\vec{x}_k \\
 R_0 \equiv g \sqrt{NA_0^3}
 $$
 
-$$R_0$$ is the expected signaling molecule difference across the whole cluster of cells. The purpose in dividing by $$R_0$$ is to attempt to normalize $$R_k$$ so that $\epsilon$ may be used as a tuning parameter on the order of 1 in order to vary the strength of cell-cell communication.
+$$R_0$$ is the expected signaling molecule difference across the whole cluster of cells. The purpose in dividing by $$R_0$$ is to attempt to normalize $$R_k$$ so that $$\epsilon$$ may be used as a tuning parameter on the order of 1 in order to vary the strength of cell-cell communication.
 
 ## Bias
 
