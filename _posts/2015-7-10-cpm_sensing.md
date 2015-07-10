@@ -1,3 +1,7 @@
+---
+title: CPM Cell Sensing Implementation
+layout: post
+---
 
 # Cell Sensing, Implementation in CPM Code
 
