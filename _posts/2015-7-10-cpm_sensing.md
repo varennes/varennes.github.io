@@ -209,7 +209,7 @@ R_0 \equiv g \ (N_g-1) \sqrt{A_0} \\
 N_g \equiv \text{Number of cells parallel to the gradient}
 $$
 
-The vector $$\vec{q}_k$$ points away from all cell $k$'s neighbors. I have a couple of ideas for the exact formulation of $$\vec{q}_k$$.
+The vector $$\vec{q}_k$$ points away from all cell $$k$$'s neighbors. I have a couple of ideas for the exact formulation of $$\vec{q}_k$$.
 
 1. $$\vec{q}_k$$ is the sum of the differences of the center of masses.
 2. $$\vec{q}_k$$ is the weighted sum of the differences. The weights correspond to the contact lengths $$L_{<j,k>}$$.
