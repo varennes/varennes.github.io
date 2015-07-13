@@ -188,4 +188,37 @@ $$
 w = \sum_{k=\sigma(a),\sigma(b)} \frac{\Delta\vec{x}_{k(a \to b)} \cdot \vec{p}_k}{ |\Delta\vec{x}_{k(a \to b)}| |\Delta\vec{x}_{k(\Delta t)}|}
 $$
 
+
+### Issues with this Model of Polarization & Bias
+
+This model produces unrealistic results. Although cells properly sense their environment, this does not translate into relatively quick, coherent motion in the direction of increasing signal concentration as desired. Even in the case of a steep gradient, cells do not behave as expected.
+
+<iframe src="https://drive.google.com/file/d/0B9wUAi2m2Di9WWttOXNYOUxLOVk/preview" width="600" height="350"></iframe>
+In this video each of the 6 cells is colored to indicate their $$R_k$$ value. Hot colors represent large, positive values whereas cool color represent smaller/negative values. The chemical gradient increases linearly from left to right.
+
+As you can see cell movement does not look coordinated and the polarization vectors change erratically. Cells are properly measuring and communicating the signal as indicated by the right-side of the group generally having the largest values for the downstream readout. This means that the problem in the model lies in translating the various values of $$R_k$$ to the dynamics of each cell which is done through the polarization and the bias.
+
+I believe that the problem is most likely caused by the calculation of the change in polarization. Say that a cell at the very right edge of the group has both $$\vec{p}_k$$ and $$\Delta\vec{x}_k$$ pointing parallel to the gradient then its positive readout $$R_k$$ would only reinforce movement parallel to the gradient. Other problems also occur when a cell becomes disconnected form the group.
+
+These problems stem from the fact that the influence of sensing on polarization occurs through scaling $$\Delta\vec{x}_k$$. Whereas it should depend on where the cell is located in the group. I propose that changes in polarization obey the following equation
+
+$$ \Delta\vec{p}_k = -r\vec{p}_k + \Delta\vec{x}_k + \epsilon \tfrac{R_k}{R_0} \vec{q}_k \ .$$
+
+$$
+R_0 \equiv g \ (N_g-1) \sqrt{A_0} \\
+N_g \equiv \text{Number of cells parallel to the gradient}
+$$
+
+The vector $$\vec{q}_k$$ points away from all cell $k$'s neighbors. I have a couple of ideas for the exact formulation of $$\vec{q}_k$$.
+
+1. $$\vec{q}_k$$ is the sum of the differences of the center of masses.
+2. $$\vec{q}_k$$ is the weighted sum of the differences. The weights correspond to the contact lengths $$L_{<j,k>}$$.
+3. Use the unit vectors of the differences in the weighted sum.
+
+In any case, the expression for $$\vec{q}_k$$ will look something like
+
+$$ \vec{q}_k = \sum_{<j,k>} L_{<j,k>} (\vec{x}_k - \vec{x}_j)$$
+
+
+> Julien Varennes
 > Written with [StackEdit](https://stackedit.io/).
