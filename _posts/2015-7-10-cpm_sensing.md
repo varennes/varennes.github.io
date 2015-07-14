@@ -200,25 +200,31 @@ As you can see cell movement does not look coordinated and the polarization vect
 
 I believe that the problem is most likely caused by the calculation of the change in polarization. Say that a cell at the very right edge of the group has both $$\vec{p}_k$$ and $$\Delta\vec{x}_k$$ pointing parallel to the gradient then its positive readout $$R_k$$ would only reinforce movement parallel to the gradient. Other problems also occur when a cell becomes disconnected form the group.
 
+## Updated Polarization Implementation
+
 These problems stem from the fact that the influence of sensing on polarization occurs through scaling $$\Delta\vec{x}_k$$. Whereas it should depend on where the cell is located in the group. I propose that changes in polarization obey the following equation
 
 $$ \Delta\vec{p}_k = -r\vec{p}_k + \Delta\vec{x}_k + \epsilon \tfrac{R_k}{R_0} \vec{q}_k \ .$$
 
 $$
-R_0 \equiv g \ (N_g-1) \sqrt{A_0} \\
+R_0 \equiv g \ (N_g-1) \sqrt{A_0^3} \\
 N_g \equiv \text{Number of cells parallel to the gradient}
 $$
 
-The vector $$\vec{q}_k$$ points away from all cell $$k$$'s neighbors. I have a couple of ideas for the exact formulation of $$\vec{q}_k$$.
+The vector $$\vec{q}_k$$ points away from all cell $$k$$'s neighbors.
 
-1. $$\vec{q}_k$$ is the sum of the differences of the center of masses.
-2. $$\vec{q}_k$$ is the weighted sum of the differences. The weights correspond to the contact lengths $$L_{<j,k>}$$.
-3. Use the unit vectors of the differences in the weighted sum.
+$$ \vec{q}_k = \sum_{<j,k>} L_{<j,k>}  \frac{\vec{x}_k - \vec{x}_j}{|\vec{x}_k - \vec{x}_j|} $$
 
-In any case, the expression for $$\vec{q}_k$$ will look something like
+Using this implementation of updating the polarization vector yeilds results which are much more in-line with expectations.
 
-$$ \vec{q}_k = \sum_{<j,k>} L_{<j,k>} (\vec{x}_k - \vec{x}_j)$$
+Here are two preliminary simulation videos.
 
+<iframe src="https://drive.google.com/file/d/0B9wUAi2m2Di9OXdLS3ZCeWNwM0U/preview" width="600" height="350"></iframe>
+
+<iframe src="https://drive.google.com/file/d/0B9wUAi2m2Di9RmtWcHktZUNOeE0/preview" width="600" height="350"></iframe>
+
+Qualitatively, the behavior is good but parameters need fine-tuning in order to get cells of desired sizes/shapes. The chemical gradient increases linearly from left to right, and there is about a +100 increase in the chemical concentration initially, between the cells.
 
 > Julien Varennes
+>
 > Written with [StackEdit](https://stackedit.io/).
