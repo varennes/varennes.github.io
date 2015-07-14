@@ -221,7 +221,7 @@ Here are two preliminary simulation videos.
 
 <iframe src="https://drive.google.com/file/d/0B9wUAi2m2Di9OXdLS3ZCeWNwM0U/preview" width="600" height="350"></iframe>
 
-<iframe src="https://drive.google.com/file/d/0B9wUAi2m2Di9RmtWcHktZUNOeE0/preview" width="600" height="350"></iframe>
+<iframe src="https://drive.google.com/file/d/0B9wUAi2m2Di9WVlTcHBWekxDYTA/preview" width="600" height="350"></iframe>
 
 Qualitatively, the behavior is good but parameters need fine-tuning in order to get cells of desired sizes/shapes. The chemical gradient increases linearly from left to right, and there is about a +100 increase in the chemical concentration initially, between the cells.
 
