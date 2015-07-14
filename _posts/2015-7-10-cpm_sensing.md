@@ -198,7 +198,7 @@ In this video each of the 6 cells is colored to indicate their $$R_k$$ value. Ho
 
 As you can see cell movement does not look coordinated and the polarization vectors change erratically. Cells are properly measuring and communicating the signal as indicated by the right-side of the group generally having the largest values for the downstream readout. This means that the problem in the model lies in translating the various values of $$R_k$$ to the dynamics of each cell which is done through the polarization and the bias.
 
-I believe that the problem is most likely caused by the calculation of the change in polarization. Say that a cell at the very right edge of the group has both $$\vec{p}_k$$ and $$\Delta\vec{x}_k$$ pointing parallel to the gradient then its positive readout $$R_k$$ would only reinforce movement parallel to the gradient. Other problems also occur when a cell becomes disconnected form the group.
+I believe that the problem is most likely caused by the calculation of the change in polarization. Say that a cell at the very right edge of the group has both $$\vec{p}_k$$ and $$\Delta\vec{x}_k$$ pointing perpendicular to the gradient then its positive readout $$R_k$$ would only reinforce movement perpendicular to the gradient. Other problems also occur when a cell becomes disconnected form the group.
 
 ## Updated Polarization Implementation
 
