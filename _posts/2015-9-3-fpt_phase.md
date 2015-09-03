@@ -70,4 +70,5 @@ For $$\beta = 5.5$$ and $$\epsilon = 8.0$$
 <iframe src="https://drive.google.com/file/d/0B9wUAi2m2Di9TlZ3eGxReGhDWE0/preview" width="640" height="480"></iframe>
 
 > Julien Varennes
+>
 > Written with [StackEdit](https://stackedit.io/).
