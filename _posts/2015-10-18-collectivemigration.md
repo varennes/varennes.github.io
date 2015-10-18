@@ -13,7 +13,7 @@ $$
 
 We can measure the mean first passage time (mFPT) for clusters of cells who are in the presence of a chemical gradient.
 
-<iframe src="https://drive.google.com/file/d/0B9wUAi2m2Di9MkJHbzVHVzlqVjA/preview" width="320" height="240"></iframe>
+<img src="https://farm1.staticflickr.com/619/21664220753_c7e4db8976.jpg" width="500" height="388" alt="mFPTvN_7">
 
 The different lines are for different values of $$\Gamma$$, which is related to the exchange rate of *Y* molecules between cells $$\gamma$$.
 
@@ -40,7 +40,7 @@ $$
 
 Here are the results.
 
-<iframe src="https://drive.google.com/file/d/0B9wUAi2m2Di9YkpDQ3VTY05PM3c/preview" width="320" height="240"></iframe>
+<img src="https://farm6.staticflickr.com/5793/22272391012_5d81dd7723.jpg" width="500" height="400" alt="mFPTvN_2">
 
 As the cluster size increases the mFPT increases. This is expected since coherent forward motion should be more difficult as more cells are added to the cluster. However, as the number of cells increases the rate of increase in mFPT decreases and mFPT seems to level off.
 
