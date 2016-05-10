@@ -12,7 +12,7 @@ I work in the field of biophysics. I am interested in problems pertaining to col
 
 Here is a link to my [brief cv](https://drive.google.com/file/d/0B9wUAi2m2Di9aFNlZ1VTRVJfblk/view?usp=sharing). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I have worked on.
 
-### Research Papers
+## Research Papers
 
 #### Submitted
 
