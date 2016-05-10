@@ -12,6 +12,18 @@ I work in the field of biophysics. I am interested in problems pertaining to col
 
 Here is a link to my [brief cv](https://drive.google.com/file/d/0B9wUAi2m2Di9aFNlZ1VTRVJfblk/view?usp=sharing). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I have worked on.
 
-#### Contact me
+### Research Papers
+
+#### Submitted
+
+- **J. Varennes**, B. Han, and A. Mugler. Collective chemotaxis through noisy multicellular gradient sensing. arXiv:1605.00712. [[preprint](http://arxiv.org/abs/1605.00712)]
+- 
+
+#### Published
+
+- **J. Varennes** and A. Mugler. Sense and sensitivity: physical limits to multicellular sensing, migration and drug response. Molecular Pharmaceutics, 2016. [[paper](http://pubs.acs.org.ezproxy.lib.purdue.edu/doi/abs/10.1021/acs.molpharmaceut.5b00899)][[preprint](http://arxiv.org/abs/1512.00496)]
+
+
+### Contact me
 
 Send me an email using the mail icon at the bottom of the page!
