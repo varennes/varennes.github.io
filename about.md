@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
- <table style="width:100%">
-    <td>Hello!
+<img src="/images/austria16_selfie1.png" width="258" height="193">
 
-I am a physics Phd student at [Purdue University](http://www.physics.purdue.edu/). I have been a graduate student at Purdue since August 2013 and I work in Prof. Andrew Mugler's [research group](http://www.physics.purdue.edu/mugler/home.html).
+I am a physics Phd student at [Purdue University](http://www.physics.purdue.edu/) and I work in Prof. Andrew Mugler's [research group](http://www.physics.purdue.edu/mugler/home.html).
 
-I work in the field of biophysics. I am interested in problems pertaining to collective cell sensing and how that affects cell migration.
-</td>
-    <td> <img src="/images/austria16_selfie1.png" width="258" height="193"> </td>
-</table>
+I study phenomena in the field of biophysics. I am interested in problems pertaining to collective cell sensing and how that affects cell migration.
 
 Here is a link to my [brief cv](https://drive.google.com/file/d/0B9wUAi2m2Di9aFNlZ1VTRVJfblk/view?usp=sharing). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I am working on.
 
