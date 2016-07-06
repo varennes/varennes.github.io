@@ -4,6 +4,11 @@ title: About
 permalink: /about/
 ---
 
+ <table style="width:100%">
+    <td>Eve</td>
+    <td> <img src="/images/austria16_selfie1.png" width="258" height="193"> </td>
+</table>
+
 Hello!
 
 I am a physics Phd student at [Purdue University](http://www.physics.purdue.edu/). I have been a graduate student at Purdue since August 2013 and I work in Prof. Andrew Mugler's [research group](http://www.physics.purdue.edu/mugler/home.html).
