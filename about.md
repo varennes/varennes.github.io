@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About & Publications
+title: About
 permalink: /about/
 ---
 
