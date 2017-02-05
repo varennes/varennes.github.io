@@ -10,7 +10,7 @@ I am a physics Phd student at [Purdue University](http://www.physics.purdue.edu/
 
 I study phenomena in the field of biophysics. I am interested in problems pertaining to collective cell sensing and how that affects cell migration.
 
-Here is a link to my [brief cv](https://drive.google.com/file/d/0B9wUAi2m2Di9aFNlZ1VTRVJfblk/view?usp=sharing). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I am working on.
+Here is a link to my [brief cv](https://drive.google.com/open?id=0B9wUAi2m2Di9RnZra1ZNLWZMQ3M). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I am working on.
 
 ## Research Papers
 
