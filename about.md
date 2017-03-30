@@ -14,6 +14,10 @@ Here is a link to my [brief cv](https://drive.google.com/open?id=0B9wUAi2m2Di9Rn
 
 ## Research Papers
 
+#### Submitted
+
+- **J. Varennes**, S. Fancher, B. Han, and A. Mugler. *Emergent versus individual-based multicellular chemotaxis*. [[preprint]](https://arxiv.org/abs/1703.09666)
+
 #### Published
 
 - **J. Varennes**, B. Han, and A. Mugler. *Collective chemotaxis through noisy multicellular gradient sensing*. Biophysical Journal, 2016. [[paper](http://www.cell.com/biophysj/abstract/S0006-3495(16)30523-9)][[preprint](http://arxiv.org/abs/1605.00712)]
