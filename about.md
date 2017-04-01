@@ -10,7 +10,7 @@ I am a physics Phd student at [Purdue University](http://www.physics.purdue.edu/
 
 I study phenomena in the field of biophysics. I am interested in problems pertaining to collective cell sensing and how that affects cell migration.
 
-Here is a link to my [brief cv](https://drive.google.com/open?id=0B9wUAi2m2Di9RnZra1ZNLWZMQ3M). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I am working on.
+Here is a link to my [brief cv](https://drive.google.com/open?id=0B9wUAi2m2Di9SHY0eHloX2hZM3M). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I am working on.
 
 ## Research Papers
 
@@ -21,8 +21,8 @@ Here is a link to my [brief cv](https://drive.google.com/open?id=0B9wUAi2m2Di9Rn
 #### Published
 
 - **J. Varennes**, B. Han, and A. Mugler. *Collective chemotaxis through noisy multicellular gradient sensing*. Biophysical Journal, 2016. [[paper](http://www.cell.com/biophysj/abstract/S0006-3495(16)30523-9)][[preprint](http://arxiv.org/abs/1605.00712)]
-- **J. Varennes** and A. Mugler. *Sense and sensitivity: physical limits to multicellular sensing, migration and drug response*. Molecular Pharmaceutics, 2016. [[paper](http://pubs.acs.org.ezproxy.lib.purdue.edu/doi/abs/10.1021/acs.molpharmaceut.5b00899)][[preprint](http://arxiv.org/abs/1512.00496)]
-- A.W. Cummings, **J. Varennes**, F. Léonard. *Electrical Contacts to Three-Dimensional Arrays of Carbon Nanotubes*. Nanotechnology, IEEE Transactions, 2013. [[paper](http://ieeexplore.ieee.org.ezproxy.lib.purdue.edu/xpls/abs_all.jsp?arnumber=6605560)][[preprint](http://arxiv.org/abs/1403.3942)]
+- **J. Varennes** and A. Mugler. *Sense and sensitivity: physical limits to multicellular sensing, migration and drug response*. Molecular Pharmaceutics, 2016. [[paper](http://pubs.acs.org/doi/abs/10.1021/acs.molpharmaceut.5b00899)][[preprint](http://arxiv.org/abs/1512.00496)]
+- A.W. Cummings, **J. Varennes**, F. Léonard. *Electrical Contacts to Three-Dimensional Arrays of Carbon Nanotubes*. Nanotechnology, IEEE Transactions, 2013. [[paper](http://ieeexplore.ieee.org/abstract/document/6605560/)][[preprint](http://arxiv.org/abs/1403.3942)]
 
 
 ### Contact me
