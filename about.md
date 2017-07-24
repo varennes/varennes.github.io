@@ -6,9 +6,9 @@ permalink: /about/
 
 <img src="/images/austria16_selfie1.png" width="258" height="193">
 
-I am a physics Phd student at [Purdue University](http://www.physics.purdue.edu/) and I work in Prof. Andrew Mugler's [research group](http://www.physics.purdue.edu/mugler/home.html).
+I am a biophysics Phd student at [Purdue University](http://www.physics.purdue.edu/) working in Prof. Andrew Mugler's [research group](http://www.physics.purdue.edu/mugler/home.html).
 
-I study phenomena in the field of biophysics. I am interested in problems pertaining to collective cell sensing and how that affects cell migration.
+I study phenomena in the field of biophysics using computational and mathematical models. I am interested in problems pertaining to how noise and fluctuations in a cell's microenvironment limit its ability to chemotax, and how collective cell behavior can improve chemotactic performance.
 
 Here is a link to my [brief cv](https://drive.google.com/open?id=0B9wUAi2m2Di9SHY0eHloX2hZM3M). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I am working on.
 
@@ -43,4 +43,4 @@ Here is a link to my [brief cv](https://drive.google.com/open?id=0B9wUAi2m2Di9SH
 
 ### Contact me
 
-Send me an email using the mail icon at the bottom of the page!
+Please feel free to send me an email using the mail icon at the bottom of the page or connect with me on [Linkedin](https://www.linkedin.com/in/jvarennes/).
