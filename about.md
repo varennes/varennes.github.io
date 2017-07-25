@@ -10,7 +10,7 @@ I am a biophysics Phd student at [Purdue University](http://www.physics.purdue.e
 
 I study phenomena in the field of biophysics using computational and mathematical models. I am interested in problems pertaining to how noise and fluctuations in a cell's microenvironment limit its ability to chemotax, and how collective cell behavior can improve chemotactic performance.
 
-Here is a link to my [brief cv](https://drive.google.com/open?id=0B9wUAi2m2Di9SHY0eHloX2hZM3M). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I am working on.
+Here is a link to my [cv](https://drive.google.com/open?id=0B9wUAi2m2Di9aXFZbmpkdlp4b0E). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I am working on.
 
 ## Research Papers
 
