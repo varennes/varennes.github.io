@@ -8,9 +8,11 @@ permalink: /about/
 
 I am a biophysics Phd student at [Purdue University](http://www.physics.purdue.edu/) working in Prof. Andrew Mugler's [research group](http://www.physics.purdue.edu/mugler/home.html).
 
-I study phenomena in the field of biophysics using computational and mathematical models. I am interested in problems pertaining to how noise and fluctuations in a cell's microenvironment limit its ability to chemotax, and how collective cell behavior can improve chemotactic performance.
+I study phenomena in the field of biophysics using computational and mathematical models. My thesis research relates to problems pertaining to how noise and fluctuations in a cell's microenvironment limit its ability to chemotax, and how collective cell behavior can improve chemotactic performance.
 
-Here is a link to my [cv](https://drive.google.com/open?id=0B9wUAi2m2Di9aXFZbmpkdlp4b0E). You may also check out my [github page](https://github.com/varennes) to view some physics simulation projects I am working on.
+I am currently teaching myself machine learning techniques and algorithms, you may check up on my progress [here](https://github.com/varennes).
+
+Here is a link to my [cv](https://drive.google.com/open?id=0B9wUAi2m2Di9aXFZbmpkdlp4b0E), and my [Linkedin](https://www.linkedin.com/in/jvarennes/). You may also check out my [github page](https://github.com/varennes) to view some of my research projects.
 
 ## Research Papers
 
@@ -43,4 +45,4 @@ Here is a link to my [cv](https://drive.google.com/open?id=0B9wUAi2m2Di9aXFZbmpk
 
 ### Contact me
 
-Please feel free to send me an email using the mail icon at the bottom of the page or connect with me on [Linkedin](https://www.linkedin.com/in/jvarennes/).
+Please feel free to send me an email using the mail icon at the bottom of the page or connect with me on 
