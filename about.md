@@ -16,9 +16,9 @@ Here is a link to my [cv](https://drive.google.com/open?id=0B9wUAi2m2Di9aXFZbmpk
 
 ## Research Papers
 
-#### Submitted
+#### Accepted
 
-- **J. Varennes**, S. Fancher, B. Han, and A. Mugler. *Emergent versus individual-based multicellular chemotaxis*. [[preprint](https://arxiv.org/abs/1703.09666)]
+- **J. Varennes**, S. Fancher, B. Han, and A. Mugler. *Emergent versus individual-based multicellular chemotaxis*. Physical Review Letters. [[preprint](https://arxiv.org/abs/1703.09666)]
 
 #### Published
 
