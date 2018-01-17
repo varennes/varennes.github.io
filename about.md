@@ -25,7 +25,7 @@ Here is a link to my [cv](https://drive.google.com/open?id=0B9wUAi2m2Di9aXFZbmpk
 
 #### Submitted
 
-- S. Gupta, J. Varennes, H. C. Korswagen, and A. Mugler. *Temporal precision of regulated gene expression*. [[preprint](https://arxiv.org/abs/1711.07918)]
+- S. Gupta, **J. Varennes**, H. C. Korswagen, and A. Mugler. *Temporal precision of regulated gene expression*. [[preprint](https://arxiv.org/abs/1711.07918)]
 
 ## Presentations & Invited Talks
 
