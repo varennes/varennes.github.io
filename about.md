@@ -12,7 +12,7 @@ For my thesis dissertation I studied phenomena related to single and multicellul
 
 I am currently teaching myself data science fundamentals and machine learning algorithms; you may check up on my progress [here](https://github.com/varennes).
 
-Here is a link to my [cv](https://drive.google.com/open?id=0B9wUAi2m2Di9aXFZbmpkdlp4b0E), and my [Linkedin](https://www.linkedin.com/in/jvarennes/). You may also check out my [github page](https://github.com/varennes) to view the simulation code I developed for my research as well as data science projects.
+Here is a link to my [cv](https://drive.google.com/open?id=1JPewVovPV52Y9IgzJ4LJZtkIuXs1ohM6), and my [Linkedin](https://www.linkedin.com/in/jvarennes/). You may also check out my [github page](https://github.com/varennes) to view the simulation code I developed for my research as well as data science projects.
 
 ## Research Papers
 
