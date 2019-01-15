@@ -18,14 +18,11 @@ Here is a link to my [cv](https://drive.google.com/open?id=1JPewVovPV52Y9IgzJ4LJ
 
 #### Published
 
+- S. Gupta, **J. Varennes**, H. C. Korswagen, and A. Mugler. *Temporal precision of regulated gene expression*. [[paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006201)][[preprint](https://arxiv.org/abs/1711.07918)]
 - **J. Varennes**, S. Fancher, B. Han, and A. Mugler. *Emergent versus individual-based multicellular chemotaxis*. Physical Review Letters, 2017. [[paper](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.188101)][[preprint](https://arxiv.org/abs/1703.09666)]
 - **J. Varennes**, B. Han, and A. Mugler. *Collective chemotaxis through noisy multicellular gradient sensing*. Biophysical Journal, 2016. [[paper](http://www.cell.com/biophysj/abstract/S0006-3495(16)30523-9)][[preprint](http://arxiv.org/abs/1605.00712)]
 - **J. Varennes** and A. Mugler. *Sense and sensitivity: physical limits to multicellular sensing, migration and drug response*. Molecular Pharmaceutics, 2016. [[paper](http://pubs.acs.org/doi/abs/10.1021/acs.molpharmaceut.5b00899)][[preprint](http://arxiv.org/abs/1512.00496)]
 - A.W. Cummings, **J. Varennes**, F. Léonard. *Electrical Contacts to Three-Dimensional Arrays of Carbon Nanotubes*. Nanotechnology, IEEE Transactions, 2013. [[paper](http://ieeexplore.ieee.org/abstract/document/6605560/)][[preprint](http://arxiv.org/abs/1403.3942)]
-
-#### Submitted
-
-- S. Gupta, **J. Varennes**, H. C. Korswagen, and A. Mugler. *Temporal precision of regulated gene expression*. [[preprint](https://arxiv.org/abs/1711.07918)]
 
 ## Presentations & Invited Talks
 
@@ -46,4 +43,4 @@ Here is a link to my [cv](https://drive.google.com/open?id=1JPewVovPV52Y9IgzJ4LJ
 
 ### Contact me
 
-Please feel free to send me an email using the mail icon at the bottom of the page or connect with me on 
+Please feel free to send me an email using the mail icon at the bottom of the page or connect with me on linkedin.
