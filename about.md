@@ -6,13 +6,12 @@ permalink: /about/
 
 <img src="/images/austria16_selfie1.png" width="258" height="193">
 
-I am a biophysicist and recent graduate of Prof. Andrew Mugler's [research group](http://www.physics.purdue.edu/mugler/home.html) at [Purdue University](http://www.physics.purdue.edu/).
+I am a physicist, data scientist and machine learning enthusiast currently working as a process engineer at Intel.
 
-For my thesis dissertation I studied phenomena related to single and multicellular chemotaxis using computational tools and mathematical models. The research problems were primarily related to how noise and fluctuations in a cell's microenvironment limit its ability to chemotax, and how collective cell behavior can improve chemotactic performance.
+I conducted my graduate research as a member of Prof. Andrew Mugler's [research group](http://www.physics.purdue.edu/mugler/home.html) at [Purdue University](http://www.physics.purdue.edu/).
+For my thesis dissertation I studied phenomena related to single and multicellular chemotaxis using computational tools and mathematical models. The research problems were primarily related to how noise and fluctuations in a cell's microenvironment limit its ability to chemotax, and how collective cell behavior can improve chemotactic performance. My thesis can be found on [Purdue's library website](https://docs.lib.purdue.edu/dissertations/AAI10641410/) and [on my github](https://github.com/varennes/thesis).
 
-I am currently teaching myself data science fundamentals and machine learning algorithms; you may check up on my progress [here](https://github.com/varennes).
-
-Here is a link to my [cv](https://drive.google.com/open?id=1JPewVovPV52Y9IgzJ4LJZtkIuXs1ohM6), and my [Linkedin](https://www.linkedin.com/in/jvarennes/). You may also check out my [github page](https://github.com/varennes) to view the simulation code I developed for my research as well as data science projects.
+Here is a link to my [resume](https://drive.google.com/open?id=1JPewVovPV52Y9IgzJ4LJZtkIuXs1ohM6), and my [Linkedin](https://www.linkedin.com/in/jvarennes/). Please reach out if you would like to view a more up-to-date resume. You may also check out my [github page](https://github.com/varennes) to view the simulation code I developed for my research as well as hobby data science projects.
 
 ## Research Papers
 
@@ -23,6 +22,10 @@ Here is a link to my [cv](https://drive.google.com/open?id=1JPewVovPV52Y9IgzJ4LJ
 - **J. Varennes**, B. Han, and A. Mugler. *Collective chemotaxis through noisy multicellular gradient sensing*. Biophysical Journal, 2016. [[paper](http://www.cell.com/biophysj/abstract/S0006-3495(16)30523-9)][[preprint](http://arxiv.org/abs/1605.00712)]
 - **J. Varennes** and A. Mugler. *Sense and sensitivity: physical limits to multicellular sensing, migration and drug response*. Molecular Pharmaceutics, 2016. [[paper](http://pubs.acs.org/doi/abs/10.1021/acs.molpharmaceut.5b00899)][[preprint](http://arxiv.org/abs/1512.00496)]
 - A.W. Cummings, **J. Varennes**, F. Léonard. *Electrical Contacts to Three-Dimensional Arrays of Carbon Nanotubes*. Nanotechnology, IEEE Transactions, 2013. [[paper](http://ieeexplore.ieee.org/abstract/document/6605560/)][[preprint](http://arxiv.org/abs/1403.3942)]
+
+#### Accepted
+
+- **J. Varennes***, H. Moon*, S. Saha, A. Mugler, and B. Han (*equal contributors). *Physical constraints on accuracy and persistence during breast cancer cell chemotaxis*. PLoS Computational Biology, 2019. [[preprint](https://arxiv.org/abs/1904.00088)]
 
 ## Presentations & Invited Talks
 
