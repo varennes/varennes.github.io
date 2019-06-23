@@ -15,17 +15,12 @@ Here is a link to my [resume](https://drive.google.com/open?id=1JPewVovPV52Y9Igz
 
 ## Research Papers
 
-#### Published
-
+- **J. Varennes***, H. Moon*, S. Saha, A. Mugler, and B. Han (*equal contributors). *Physical constraints on accuracy and persistence during breast cancer cell chemotaxis*. PLoS Computational Biology, 2019. [[paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006961)][[preprint](https://arxiv.org/abs/1904.00088)]
 - S. Gupta, **J. Varennes**, H. C. Korswagen, and A. Mugler. *Temporal precision of regulated gene expression*. PLoS Computational Biology, 2018. [[paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006201)][[preprint](https://arxiv.org/abs/1711.07918)]
 - **J. Varennes**, S. Fancher, B. Han, and A. Mugler. *Emergent versus individual-based multicellular chemotaxis*. Physical Review Letters, 2017. [[paper](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.188101)][[preprint](https://arxiv.org/abs/1703.09666)]
 - **J. Varennes**, B. Han, and A. Mugler. *Collective chemotaxis through noisy multicellular gradient sensing*. Biophysical Journal, 2016. [[paper](http://www.cell.com/biophysj/abstract/S0006-3495(16)30523-9)][[preprint](http://arxiv.org/abs/1605.00712)]
 - **J. Varennes** and A. Mugler. *Sense and sensitivity: physical limits to multicellular sensing, migration and drug response*. Molecular Pharmaceutics, 2016. [[paper](http://pubs.acs.org/doi/abs/10.1021/acs.molpharmaceut.5b00899)][[preprint](http://arxiv.org/abs/1512.00496)]
 - A.W. Cummings, **J. Varennes**, F. Léonard. *Electrical Contacts to Three-Dimensional Arrays of Carbon Nanotubes*. Nanotechnology, IEEE Transactions, 2013. [[paper](http://ieeexplore.ieee.org/abstract/document/6605560/)][[preprint](http://arxiv.org/abs/1403.3942)]
-
-#### Accepted
-
-- **J. Varennes***, H. Moon*, S. Saha, A. Mugler, and B. Han (*equal contributors). *Physical constraints on accuracy and persistence during breast cancer cell chemotaxis*. PLoS Computational Biology, 2019. [[preprint](https://arxiv.org/abs/1904.00088)]
 
 ## Presentations & Invited Talks
 
