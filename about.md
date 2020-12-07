@@ -6,12 +6,14 @@ permalink: /about/
 
 <img src="/images/austria16_selfie1.png" width="258" height="193">
 
-I am a physicist, data scientist and machine learning enthusiast currently working as a process engineer at Intel.
+I am a data scientist, physicist, and machine learning enthusiast currently working as a Data Scientist at [The Climate Corporation](https://climate.com/), a subsidiary of Bayer and a leader in ag tech.
+
+Check out my [resume](https://drive.google.com/file/d/1wfc6g72txrjG2wtf2eEuOJAU6IS6Qe-n/view?usp=sharing), and my [Linkedin](https://www.linkedin.com/in/jvarennes/) profile for more information.
 
 I conducted my graduate research as a member of Prof. Andrew Mugler's [research group](http://www.physics.purdue.edu/mugler/home.html) at [Purdue University](http://www.physics.purdue.edu/).
 For my thesis dissertation I studied phenomena related to single and multicellular chemotaxis using computational tools and mathematical models. The research problems were primarily related to how noise and fluctuations in a cell's microenvironment limit its ability to chemotax, and how collective cell behavior can improve chemotactic performance. My thesis can be found on [Purdue's library website](https://docs.lib.purdue.edu/dissertations/AAI10641410/) and [on my github](https://github.com/varennes/thesis).
 
-Here is a link to my [resume](https://drive.google.com/file/d/1MuC2FbUNE0kTJJqNdsPm3c6x3BOnekhG/view?usp=sharing), and my [Linkedin](https://www.linkedin.com/in/jvarennes/). Please reach out if you would like to view a more up-to-date resume. You may also check out my [github page](https://github.com/varennes) to view the simulation code I developed for my research as well as hobby data science projects.
+Please reach out if you would like to view a more up-to-date resume. You may also check out my [github page](https://github.com/varennes) to view the simulation code I developed for my research as well as some hobby data science projects.
 
 ## Research Papers
 
